@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Real Study Man\\MyEStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\views\\cart\\getcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\cart\\getcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\views\\hanghoas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\hanghoas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\data\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\data\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\data\\myestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\data\\myestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\paypalclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\paypalclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|d:\\real study man\\myestore\\myestore\\views\\payment\\paypaldemo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\payment\\paypaldemo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MyEStore\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAALQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:14:03.99Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T04:36:59.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetCart.cshtml",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Views\\Cart\\GetCart.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Cart\\GetCart.cshtml",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Views\\Cart\\GetCart.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Cart\\GetCart.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T01:26:56.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Models\\CartItem.cs",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Models\\CartItem.cs",
+              "RelativeToolTip": "MyEStore\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:35:00.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Program.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Program.cs",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Program.cs",
+              "RelativeToolTip": "MyEStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:27:29.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Data\\Cart.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Data\\Cart.cs",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Data\\Cart.cs",
+              "RelativeToolTip": "MyEStore\\Data\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:27:00.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyeStoreContext.cs",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Data\\MyeStoreContext.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Data\\MyeStoreContext.cs",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Data\\MyeStoreContext.cs",
+              "RelativeToolTip": "MyEStore\\Data\\MyeStoreContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwDkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:26:53.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaypalDemo.cshtml",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Views\\Payment\\PaypalDemo.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Payment\\PaypalDemo.cshtml",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Views\\Payment\\PaypalDemo.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Payment\\PaypalDemo.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAACkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T13:17:02.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "MyEStore\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAApwFoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T04:56:12.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\Views\\HangHoas\\Details.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\HangHoas\\Details.cshtml",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\Views\\HangHoas\\Details.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\HangHoas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T04:46:53.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaypalClient.cs",
+              "DocumentMoniker": "D:\\Real Study Man\\MyEStore\\MyEStore\\PaypalClient.cs",
+              "RelativeDocumentMoniker": "MyEStore\\PaypalClient.cs",
+              "ToolTip": "D:\\Real Study Man\\MyEStore\\MyEStore\\PaypalClient.cs",
+              "RelativeToolTip": "MyEStore\\PaypalClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T02:01:32.516Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

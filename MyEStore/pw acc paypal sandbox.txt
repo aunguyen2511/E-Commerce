@@ -1,0 +1,22 @@
+pw acc paypal sandbox:
+
+seller@niie.edu.vn
+CFns2P/3
+
+buyer1@niie.edu.vn
+0dV%m%9B
+
+buyer2@niie.edu.vn
+Y^_+;"q1
+
+buyer3@niie.edu.vn
+Fg#mv6%C
+
+buyer4@niie.edu.vn
+bbbRrM6?
+
+Client ID
+AQry6RbFdE8Z9NFVukZDiwgrPzVEMcZA3XK8ovMTmWcLBe3dZtCk1SFUwZi-sx1k0QAGF7f7YEe3rtUc
+
+Secret key 1
+ECr1Ngk68rooFL5CS3UBMYVfQy7HpOveCJObDKXL_TkTX734E06uD5Qh_TSZTr0X_RzH76RepiCYz7iT

@@ -1,0 +1,22 @@
+﻿@{
+
+    ViewData["Title"] = "Send OTP";
+
+}
+
+
+
+<h2>@ViewData["Title"]</h2>
+
+
+
+<form method="post">
+    <div class="text-danger" asp-validation-summary="All"></div>
+
+    <label for="phoneNumber">Phone Number</label>
+
+    <input type="text" id="phoneNumber" name="phoneNumber" required />
+
+    <button type="submit">Send OTP</button>
+
+</form>

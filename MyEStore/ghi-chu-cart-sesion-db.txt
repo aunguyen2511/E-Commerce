@@ -1,0 +1,16 @@
+anonymous:
+muốn add item vô giỏ hàng thì lưu trong session
+muốn thanh toán thì phải đăng nhập
+
+ví dụ có 2 món trong session (đang ở trạng thái anonymous), bấm thanh toán -> bắt buộc phải đăng nhập
+đăng nhập xong, xét coi trong cart của tài khoản đó đang có món nào nằm trong DB ko?
+- nếu ko:
+lấy 2 món đang trong session đó lưu vô trong cart của DB của khách hàng
+- nếu có tồn tại (vd 5 món) rồi:
+lấy 2 món đang trong session đó lưu vô trong cart của DB của khách hàng, + thêm 5 món đang tồn tại sẵn trong DB nữa => tổng cộng DB lúc này chứa 7 món
+
+xử lý DB xong xuôi hết rồi mới cho tính đến thanh toán
+
+------------------------------------------------------------------------
+
+giảm giá cho từng sản phẩm

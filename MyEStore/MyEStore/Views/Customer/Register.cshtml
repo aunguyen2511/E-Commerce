@@ -1,0 +1,80 @@
+﻿@model MyEStore.Models.RegisterVM
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Đăng ký thành viên</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Register" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>    
+            <div class="form-group">
+                <label asp-for="MaKh" class="control-label"></label>
+                <input asp-for="MaKh" class="form-control" />
+                <span asp-validation-for="MaKh" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MatKhau" class="control-label"></label>
+                <input asp-for="MatKhau" class="form-control" />
+                <span asp-validation-for="MatKhau" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MatKhauNhapLai" class="control-label"></label>
+                <input asp-for="MatKhauNhapLai" class="form-control" />
+                <span asp-validation-for="MatKhauNhapLai" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="HoTen" class="control-label"></label>
+                <input asp-for="HoTen" class="form-control" />
+                <span asp-validation-for="HoTen" class="text-danger"></span>
+            </div>
+
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="GioiTinh" />
+                    @Html.DisplayNameFor(Model => Model.GioiTinh)
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NgaySinh" class="control-label"></label>
+                <input asp-for="NgaySinh" class="form-control" />
+                <span asp-validation-for="NgaySinh" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DiaChi" class="control-label"></label>
+                <input asp-for="DiaChi" class="form-control" />
+                <span asp-validation-for="DiaChi" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DienThoai" class="control-label"></label>
+                <input asp-for="DienThoai" class="form-control" />
+                <span asp-validation-for="DienThoai" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Hinh" class="control-label"></label>
+                <input name="FileHinh" type="file" class="form-control" />
+                <span asp-validation-for="Hinh" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Đăng ký" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

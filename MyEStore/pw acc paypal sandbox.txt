@@ -1,0 +1,80 @@
+pw acc paypal sandbox:
+
+seller@niie.edu.vn
+CFns2P/3
+
+buyer1@niie.edu.vn
+0dV%m%9B
+
+buyer2@niie.edu.vn
+Y^_+;"q1
+
+buyer3@niie.edu.vn
+Fg#mv6%C
+
+buyer4@niie.edu.vn
+bbbRrM6?
+
+Client ID
+AQry6RbFdE8Z9NFVukZDiwgrPzVEMcZA3XK8ovMTmWcLBe3dZtCk1SFUwZi-sx1k0QAGF7f7YEe3rtUc
+
+Secret key 1
+ECr1Ngk68rooFL5CS3UBMYVfQy7HpOveCJObDKXL_TkTX734E06uD5Qh_TSZTr0X_RzH76RepiCYz7iT
+
+----------------------------------------------------------------------------------------------------------
+
+pw sandbox acc vnpayment
+mecD9MM8mJLEU@4
+https://sandbox.vnpayment.vn/devreg/
+
+Secret key
+IF1QZ0PV2IMPO8FI0ZXHBA7ZRF5L1Z74
+
+
+----------------------------------------------------------------------------------------------------------
+
+mailchimp
+
+pw
+Z7s_xa!TZ9q2-CJ
+
+----------------------------------------------------------------------------------------------------------
+
+twilio my first twilio account
+
+recovery code
+QS5X4QW2GYMV8KHPH61TL2Q8
+
+account SID
+ACe0c44486f24758f492210f534e743a4e
+
+Auth Token
+ef82a4e91209a87cff7f904ae2d264d4
+
+trial phone num kakakakka
++17755044726
+
+twilio virtual phone num (số nhận mã otp)
++18777804236
+
+ServiceSID
+VAe793c744bb292668a9eaa66c1b1212e0
+
+-----------------------------------
+recovery code
+QY49HQ27UBJGB5B8MSKNTDN3
+
+twilio account2 lần 2
+
+Account SID
+AC555799547de8398dbe5572deeba01b25
+
+Auth Token
+c3b3dc2ad9a7d94684fc4c930cb9cde8
+
+-----------------------------------------------------------------------------------------------------------
+làm cái host domain
+
+tài khoản khách hàng trên pavietnam
+Mã khách hàng	PA-778372
+Mật khẩu	y93cZS2Ub4sM

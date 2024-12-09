@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\MyEStore.csproj": {}
+    "D:\\MyEStore\\MyEStore\\MyEStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\MyEStore.csproj": {
+    "D:\\MyEStore\\MyEStore\\MyEStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\MyEStore.csproj",
+        "projectUniqueName": "D:\\MyEStore\\MyEStore\\MyEStore.csproj",
         "projectName": "MyEStore",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\MyEStore.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\obj\\",
+        "projectPath": "D:\\MyEStore\\MyEStore\\MyEStore.csproj",
+        "packagesPath": "C:\\Users\\WINDOWS10\\.nuget\\packages\\",
+        "outputPath": "D:\\MyEStore\\MyEStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WINDOWS10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -88,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

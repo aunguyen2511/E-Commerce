@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\customer\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\customer\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\helpers\\dataencryptionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\helpers\\dataencryptionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +31,80 @@
       "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\payment\\paypaldemo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\shared\\_timkiempanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\shared\\_timkiempanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\shared\\_copyright.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\shared\\_copyright.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\hanghoas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\hanghoas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\hanghoas\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\hanghoas\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\models\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\models\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\models\\viewcomponents\\loaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\models\\viewcomponents\\loaiviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\models\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\models\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\customer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\customer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\models\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\models\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\customer\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\customer\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|c:\\users\\lenovo\\desktop\\4th year\\hk1_e-commerce\\prepare 4 week 2 - then week 3, 4 - then week 5\\myestore\\myestore\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE86A29C-E368-43D7-8144-47D455883BD1}|MyEStore\\MyEStore.csproj|solutionrelative:myestore\\helpers\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +114,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PaypalDemo.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Payment\\PaypalDemo.cshtml",
               "RelativeDocumentMoniker": "MyEStore\\Views\\Payment\\PaypalDemo.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Payment\\PaypalDemo.cshtml",
               "RelativeToolTip": "MyEStore\\Views\\Payment\\PaypalDemo.cshtml",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAAwCAAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAAMwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-02T09:38:42.04Z",
               "IsPinned": true,
@@ -48,21 +132,324 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "MyEStore\\Controllers\\PaymentController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "MyEStore\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIBAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAANQAAAAAAAAAAAAawPUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T09:34:27.428Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Customer\\Login.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Customer\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Customer\\Login.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Customer\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:34:55.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "MyEStore\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowGQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:16:16.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MyEStore\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:23:36.541Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Helpers\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "MyEStore\\Helpers\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:25:11.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataEncryptionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Helpers\\DataEncryptionExtensions.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Helpers\\DataEncryptionExtensions.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Helpers\\DataEncryptionExtensions.cs",
+              "RelativeToolTip": "MyEStore\\Helpers\\DataEncryptionExtensions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:53:25.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\appsettings.json",
+              "RelativeDocumentMoniker": "MyEStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\appsettings.json",
+              "RelativeToolTip": "MyEStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T11:19:33.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_TimKiemPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:47:01.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Controllers\\HangHoaController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "MyEStore\\Controllers\\HangHoaController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:15:48.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T10:52:41.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:45:22.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Copyright.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_Copyright.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Shared\\_Copyright.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_Copyright.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Shared\\_Copyright.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T10:47:28.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_DanhSachHangHoa.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T10:18:41.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_LayoutCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T10:20:36.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\HangHoas\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\HangHoas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\HangHoas\\Index.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\HangHoas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T10:39:50.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\HangHoas\\ProductItem.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\HangHoas\\ProductItem.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\HangHoas\\ProductItem.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\HangHoas\\ProductItem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T10:25:03.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HangHoaVM.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\HangHoaVM.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Models\\HangHoaVM.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\HangHoaVM.cs",
+              "RelativeToolTip": "MyEStore\\Models\\HangHoaVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:25:55.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\CartModel.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Models\\CartModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\CartModel.cs",
+              "RelativeToolTip": "MyEStore\\Models\\CartModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T04:42:13.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoaiViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\ViewComponents\\LoaiViewComponent.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Models\\ViewComponents\\LoaiViewComponent.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\ViewComponents\\LoaiViewComponent.cs",
+              "RelativeToolTip": "MyEStore\\Models\\ViewComponents\\LoaiViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T04:40:38.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Customer\\Profile.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Customer\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Customer\\Profile.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Customer\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:35:04.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\Services\\VnPayService.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Models\\Services\\VnPayService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\Services\\VnPayService.cs",
+              "RelativeToolTip": "MyEStore\\Models\\Services\\VnPayService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:28:33.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CheckoutVM.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\CheckoutVM.cs",
+              "RelativeDocumentMoniker": "MyEStore\\Models\\CheckoutVM.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\CheckoutVM.cs",
+              "RelativeToolTip": "MyEStore\\Models\\CheckoutVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:01:14.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Customer\\Register.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Customer\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Customer\\Register.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Customer\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:35:07.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Payment\\Success.cshtml",
+              "RelativeDocumentMoniker": "MyEStore\\Views\\Payment\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Views\\Payment\\Success.cshtml",
+              "RelativeToolTip": "MyEStore\\Views\\Payment\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:20:25.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "MySetting.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Helpers\\MySetting.cs",
               "RelativeDocumentMoniker": "MyEStore\\Helpers\\MySetting.cs",
@@ -72,36 +459,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T15:21:37.132Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "MyEStore\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "MyEStore\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowGQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:16:16.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CheckoutVM.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\CheckoutVM.cs",
-              "RelativeDocumentMoniker": "MyEStore\\Models\\CheckoutVM.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\Models\\CheckoutVM.cs",
-              "RelativeToolTip": "MyEStore\\Models\\CheckoutVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:01:14.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             }
           ]
         }

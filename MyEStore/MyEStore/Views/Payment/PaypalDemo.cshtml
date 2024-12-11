@@ -18,7 +18,7 @@
 
         <form action="#">
             <div class="row g-5">
-                <form asp-action="Checkout" asp-controller="Payment">
+                <form asp-action="PaymentDemo" asp-controller="Payment">
                     <div class="col-md-12 col-lg-6 col-xl-7">
 
                         <div class="form-check my-3">
@@ -27,36 +27,35 @@
                         </div>
 
                         <!-- Đoạn dưới đây nhìn đẹp, để lại mốt cần lụm css ra xài -->
-
                         @* <div class="row">
 
-                            <div class="col-md-12 col-lg-6">
-                                <div class="form-item w-100">
-                                    <label class="form-label my-3">First Name<sup>*</sup></label>
-                                    <input type="text" class="form-control" />
-                                </div>
-                            </div>
+                        <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                        <label class="form-label my-3">First Name<sup>*</sup></label>
+                        <input type="text" class="form-control" />
+                        </div>
+                        </div>
 
-                            <div class="col-md-12 col-lg-6">
-                                <div class="form-item w-100">
-                                    <label class="form-label my-3">Last Name<sup>*</sup></label>
-                                    <input type="text" class="form-control" />
-                                </div>
-                            </div>
+                        <div class="col-md-12 col-lg-6">
+                        <div class="form-item w-100">
+                        <label class="form-label my-3">Last Name<sup>*</sup></label>
+                        <input type="text" class="form-control" />
+                        </div>
+                        </div>
 
                         </div> *@
 
-                        <div class="form-item">
+                        <div class="form-item delivery-info">
                             <label class="form-label my-3">Người nhận hàng<sup>*</sup></label>
                             <input type="text" name="HoTen" class="form-control" />
                         </div>
 
-                        <div class="form-item">
+                        <div class="form-item delivery-info">
                             <label class="form-label my-3">Địa chỉ nhận hàng<sup>*</sup></label>
                             <input type="text" name="DiaChi" class="form-control" placeholder="280 An Dương Vương, Quận 5" />
                         </div>
 
-                        <div class="form-item">
+                        <div class="form-item delivery-info">
                             <label class="form-label my-3">Điện thoại<sup>*</sup></label>
                             <input type="text" name="DienThoai" class="form-control" />
                         </div>
@@ -76,6 +75,11 @@
                         <div class="row g-4 text-center align-items-center justify-content-center pt-4">
                             <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Đặt hàng</button>
                         </div>
+
+                        <!-- Nút lựa chọn thanh toán... chắc phải config lại -->
+                        <button type="submit" name="payment" class="btn-border-secondary text-uppercase text-primary w-100 mt-2">Đặt hàng (COD)</button>
+                        <button type="submit" name="payment" class="btn-border-secondary text-uppercase text-primary w-100 mt-2">Thanh toán VNPay</button>
+
 
                     </div>
 
@@ -142,7 +146,7 @@
                                 <label class="form-check-label" for="Paypal-1">Paypal</label>
                             </div>
                         </div>
-                    </div>
+                    </div>/
 
                     <div class="row g-4 text-center align-items-center justify-content-center pt-4">
                         <button type="button" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">Place Order</button>
@@ -158,17 +162,27 @@
 
 
 
-<!-- Nút lựa chọn thanh toán... chắc phải config lại -->
-
-<button type="submit" name="payment" class="btn-border-secondary text-uppercase text-primary w-100 mt-2">Đặt hàng (COD)</button>
-<button type="submit" name="payment" class="btn-border-secondary text-uppercase text-primary w-100 mt-2">Thanh toán VNPay</button>
-
 <div>
     <div id="paypal-button-container" style="max-width:200px;"></div>
     @section Scripts {
         <script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.PaypalClientId"></script>
         <!-- b. Tinh chỉnh các sự kiện tạo order và capture order (2 actions cuối trong PaymentController) -->
-        <script>
+         <script>
+
+        //     //< !--Chỉnh trạng thái nút checkbox Giống Khách Hàng-- >
+        //     $(document).ready(function () {
+        //         $("#GiongKhachHang").change(function () {
+        //             if ($(this).prop("checked")) {
+        //                 $(this).val(true);
+        //                 $(".delivery-info").addClass("d-none");
+        //             }
+        //             else {
+        //                 $(this).val(false);
+        //                 $(".delivery-info").removeClass("d-none");
+        //             }
+        //         });
+        //     });
+
             paypal.Buttons({
                 style: {
                     disableMaxWidth: true // hả ???????????????
@@ -202,6 +216,3 @@
         </script>
     }
 </div>
-
-
-

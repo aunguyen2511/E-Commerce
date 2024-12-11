@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using MyEStore.Entities;
 using MyEStore.Helpers;
 using MyEStore.Models;
+using MyEStore.Models.Services;
 
 namespace MyEStore.Controllers
 {
@@ -12,18 +13,15 @@ namespace MyEStore.Controllers
     {
         private readonly PaypalClient _paypalClient;
         private readonly MyeStoreContext _context;
+        private readonly IVnPayService _vnPayService;
 
-        public PaymentController(PaypalClient paypalClient, MyeStoreContext context)
+        public PaymentController(PaypalClient paypalClient, MyeStoreContext context, IVnPayService vnPayService)
         {
             _paypalClient = paypalClient;
             _context = context;
+            _vnPayService = vnPayService;
         }
-        //private readonly MyeStoreContext _context;
-        //public PaymentController(MyeStoreContext context)
-        //{
-        //    _context = context;
-        //}
-
+        
         #region Payment/Index
         public IActionResult Index()
         {
@@ -168,12 +166,12 @@ namespace MyEStore.Controllers
                     _context.Add(hoadon);
                     _context.SaveChanges();
 
-                    var cthd = new List<ChiTietHd>();
+                    var cthds = new List<ChiTietHd>();
 
                     foreach(var item in cart)
                     {
 
-                        cthd.Add(new ChiTietHd
+                        cthds.Add(new ChiTietHd
                         {
                             MaHd = hoadon.MaHd,
                             SoLuong = item.SoLuong,
@@ -182,7 +180,7 @@ namespace MyEStore.Controllers
                             GiamGia = 0
                         });
                     }
-
+                    _context.AddRange(cthds);
                     _context.SaveChanges();
                     HttpContext.Session.Set<List<CartItem>>(MySetting.CART_KEY, new List<CartItem>());
 

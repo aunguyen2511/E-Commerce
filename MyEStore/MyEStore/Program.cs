@@ -18,6 +18,8 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
 	options.IdleTimeout = TimeSpan.FromMinutes(30); //ko config 30p thì tự động là 20p
+	options.Cookie.HttpOnly = true;
+	options.Cookie.IsEssential = true;
 });
 
 // c. Add cookie authentication cho web

@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 
 // Thầy làm cái này là namespace MyEStore.Models
-namespace MyEStore.Helpers
+namespace MyEStore
 {
     public static class SessionExtensions
     {

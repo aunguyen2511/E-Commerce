@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyEStore.Entities;
 
-namespace MyEStore.Models.ViewComponents
+namespace MyEStore.Models
 {
     public class LoaiViewComponent : ViewComponent
     {

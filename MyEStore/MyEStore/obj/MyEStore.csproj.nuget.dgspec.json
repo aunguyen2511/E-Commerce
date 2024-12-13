@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\MyEStore.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Test\\MyEStore\\MyEStore\\MyEStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\MyEStore.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Test\\MyEStore\\MyEStore\\MyEStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\MyEStore.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Test\\MyEStore\\MyEStore\\MyEStore.csproj",
         "projectName": "MyEStore",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\MyEStore.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Test\\MyEStore\\MyEStore\\MyEStore.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Prepare 4 Week 2 - Then Week 3, 4 - Then Week 5\\MyEStore\\MyEStore\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\4th Year\\HK1_E-commerce\\Test\\MyEStore\\MyEStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,10 +63,6 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
-            },
-            "Twilio": {
-              "target": "Package",
-              "version": "[7.8.0, )"
             }
           },
           "imports": [

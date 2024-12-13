@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using MyEStore;
 using MyEStore.Entities;
-using MyEStore.Models.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,8 +17,6 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
 	options.IdleTimeout = TimeSpan.FromMinutes(30); //ko config 30p thì tự động là 20p
-	options.Cookie.HttpOnly = true;
-	options.Cookie.IsEssential = true;
 });
 
 // c. Add cookie authentication cho web
@@ -32,7 +29,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.AccessDeniedPath = "/Forbidden/";
     });
 
-// 3. Đăng ký lớp PaymentClient dạng Singleton() - chỉ có 1 instance duy nhất trong toàn ứng dụng
+// 3. Đăng ký lớp PaymentClient dạng Singleton
 builder.Services.AddSingleton(x => new PaypalClient(
     builder.Configuration["PayPalOptions:ClientId"],
     builder.Configuration["PayPalOptions:ClientSecret"],
@@ -40,10 +37,6 @@ builder.Services.AddSingleton(x => new PaypalClient(
     )
 );
 
-builder.Services.AddSingleton<IVnPayService, VnPayService>(); // Trên Paypal làm dạng class bình thường nên alias nó ra còn với VNPay thì làm interface nên phải có cái class để implement cho cái interface đó
-
-// Đăng ký sử dụng cái config Twilio Service trong appsetting.json
-builder.Services.AddSingleton(x => new TwilioService(builder.Configuration));
 
 var app = builder.Build();
 

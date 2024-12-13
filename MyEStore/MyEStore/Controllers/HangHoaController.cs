@@ -33,49 +33,11 @@ namespace MyEStore.Controllers
                 MaHh = hh.MaHh,
                 TenHh = hh.TenHh,
                 DonGia = hh.DonGia ?? 0,
-                Hinh = hh.Hinh ?? "",
-                MoTaNgan = hh.MoTaDonVi ?? "",
-                TenLoai = hh.MaLoaiNavigation.TenLoai
+                Hinh = hh.Hinh
             }).ToList();
             return View(result);
         }
-		#endregion Index Hang Hoa
-
-		#region HangHoas/Search/?
-		public IActionResult Search(string? query)
-		{
-			var hangHoas = _context.HangHoas.AsQueryable();
-
-			if (query != null)
-			{
-				hangHoas = hangHoas.Where(p => p.TenHh.Contains(query));
-			}
-
-			var result = hangHoas.Select(p => new HangHoaVM
-			{
-				MaHh = p.MaHh,
-				TenHh = p.TenHh,
-				DonGia = p.DonGia ?? 0,
-				Hinh = p.Hinh ?? "",
-				MoTaNgan = p.MoTaDonVi ?? "",
-				TenLoai = p.MaLoaiNavigation.TenLoai
-			});
-			return View(result);
-		}
-		#endregion HangHoas/Search/?
-
-		[HttpGet("san-pham/{slug}")]
-        public async Task<IActionResult> MoreDetails(string slug)
-        {
-            var product = await _context.HangHoas.FirstOrDefaultAsync(m => m.TenAlias == slug);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            return View("Details", product);
-        }
-
-
+        #endregion Index Hang Hoa
 
         #region Details Hang Hoa
         public async Task<IActionResult> Details(int? id)

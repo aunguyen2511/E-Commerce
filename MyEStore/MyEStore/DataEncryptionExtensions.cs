@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace MyEStore.Helpers
+namespace MyEStore
 {
     // g. Viết extension HashPassword
     public static class DataEncryptionExtensions

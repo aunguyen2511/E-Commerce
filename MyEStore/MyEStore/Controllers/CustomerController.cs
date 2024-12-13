@@ -5,21 +5,15 @@ using MyEStore.Entities;
 using MyEStore.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
-using MyEStore.Models.Services;
-using MyEStore.Helpers;
 
 namespace MyEStore.Controllers
 {
     public class CustomerController : Controller
     {
         private readonly MyeStoreContext _context;
-        private readonly TwilioService _twilioService;
-
-        public CustomerController(MyeStoreContext context, TwilioService twilioService)
+        public CustomerController(MyeStoreContext context)
         {
             _context = context;
-            _twilioService = twilioService; //chỗ này thích thì tách riêng ra controller Account hay cái gì đó
-            // SEND OTP nếu làm đúng thì đọc từ trong DB cái sđt của khách hàng rùi send
         }
 
         #region Customer - Register (Đăng ký)
@@ -98,7 +92,7 @@ namespace MyEStore.Controllers
             {
                 new Claim(ClaimTypes.Email, khachHang.Email),
                 new Claim(ClaimTypes.Name, khachHang.HoTen),
-                new Claim(MySetting.CLAIM_CUSTOMERID, khachHang.MaKh),
+                new Claim("ID", khachHang.MaKh),
 
                 // quyền (role)
                 new Claim(ClaimTypes.Role, "Administrator"),
@@ -141,54 +135,8 @@ namespace MyEStore.Controllers
             await HttpContext.SignOutAsync();
             return Redirect("/");
         }
-
-        [HttpGet]
-        public IActionResult SendOtp()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> SendOtp(string phoneNumber)
-        {
-            // Generate OTP
-            var otp = OtpHelper.GenerateOtp();
-
-            // Send OTP via Twilio
-            bool success = await _twilioService.SendOtpAsync(phoneNumber, otp);
-            if (success)
-            {
-                // Store OTP temporarily (e.g., in Session or a database)
-                HttpContext.Session.SetString("Otp", otp);
-
-                // Redirect to OTP verification page
-                return RedirectToAction("VerifyOtp");
-            }
-            ModelState.AddModelError("", "Failed to send OTP.");
-            return View();
-        }
-
-        [HttpGet]
-        public IActionResult VerifyOtp()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult VerifyOtp(string otp)
-        {
-            // Retrieve the OTP stored in Session or database
-            var storedOtp = HttpContext.Session.GetString("Otp");
-
-            if (storedOtp == otp)
-            {
-                // OTP is valid, proceed with authentication (e.g., login)
-                return RedirectToAction("Index", "Home");
-            }
-
-            ModelState.AddModelError("", "Invalid OTP.");
-            return View();
-        }
     }
 }
 
+
+// view login bị lỗi

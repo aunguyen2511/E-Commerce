@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using MyEStore.Models;
 
 namespace MyEStore.Entities;
 
@@ -16,8 +17,6 @@ public partial class MyeStoreContext : DbContext
     }
 
     public virtual DbSet<BanBe> BanBes { get; set; }
-
-    public virtual DbSet<Cart> Carts { get; set; }
 
     public virtual DbSet<ChiTietHd> ChiTietHds { get; set; }
 
@@ -45,13 +44,9 @@ public partial class MyeStoreContext : DbContext
 
     public virtual DbSet<PhongBan> PhongBans { get; set; }
 
-    public virtual DbSet<Role> Roles { get; set; }
-
     public virtual DbSet<TrangThai> TrangThais { get; set; }
 
     public virtual DbSet<TrangWeb> TrangWebs { get; set; }
-
-    public virtual DbSet<User> Users { get; set; }
 
     public virtual DbSet<VChiTietHoaDon> VChiTietHoaDons { get; set; }
 
@@ -59,7 +54,7 @@ public partial class MyeStoreContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-8MFUS3V\\SQLEXPRESS; Database=MyeStore;Integrated Security=True; Trust Server Certificate=True;");
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-8MFUS3V\\SQLEXPRESS;Initial Catalog=MyeStore;Integrated Security=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -87,30 +82,6 @@ public partial class MyeStoreContext : DbContext
             entity.HasOne(d => d.MaKhNavigation).WithMany(p => p.BanBes)
                 .HasForeignKey(d => d.MaKh)
                 .HasConstraintName("FK_BanBe_KhachHang");
-        });
-
-        modelBuilder.Entity<Cart>(entity =>
-        {
-            entity.HasKey(e => e.CartId).HasName("PK__Cart__51BCD797AD68EE56");
-
-            entity.ToTable("Cart");
-
-            entity.Property(e => e.CartId).HasColumnName("CartID");
-            entity.Property(e => e.MaHh).HasColumnName("MaHH");
-            entity.Property(e => e.MaKh)
-                .HasMaxLength(20)
-                .HasColumnName("MaKH");
-            entity.Property(e => e.NgayThem).HasColumnType("datetime");
-
-            entity.HasOne(d => d.MaHhNavigation).WithMany(p => p.Carts)
-                .HasForeignKey(d => d.MaHh)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Cart_HangHoa");
-
-            entity.HasOne(d => d.MaKhNavigation).WithMany(p => p.Carts)
-                .HasForeignKey(d => d.MaKh)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Cart_KhachHang");
         });
 
         modelBuilder.Entity<ChiTietHd>(entity =>
@@ -223,7 +194,6 @@ public partial class MyeStoreContext : DbContext
                 .HasMaxLength(50)
                 .HasDefaultValue("Airline");
             entity.Property(e => e.DiaChi).HasMaxLength(60);
-            entity.Property(e => e.DienThoai).HasMaxLength(24);
             entity.Property(e => e.GhiChu).HasMaxLength(50);
             entity.Property(e => e.HoTen).HasMaxLength(50);
             entity.Property(e => e.MaKh)
@@ -411,15 +381,6 @@ public partial class MyeStoreContext : DbContext
                 .HasColumnName("TenPB");
         });
 
-        modelBuilder.Entity<Role>(entity =>
-        {
-            entity.HasKey(e => e.Rid).HasName("PK__Roles__CAFF40D2EE6649B9");
-
-            entity.Property(e => e.Rid).HasColumnName("RId");
-            entity.Property(e => e.NameRole).HasMaxLength(256);
-            entity.Property(e => e.NormalizedName).HasMaxLength(256);
-        });
-
         modelBuilder.Entity<TrangThai>(entity =>
         {
             entity.HasKey(e => e.MaTrangThai);
@@ -441,23 +402,6 @@ public partial class MyeStoreContext : DbContext
             entity.Property(e => e.Url)
                 .HasMaxLength(250)
                 .HasColumnName("URL");
-        });
-
-        modelBuilder.Entity<User>(entity =>
-        {
-            entity.HasKey(e => e.Uid).HasName("PK__Users__C5B196627E0DDBE7");
-
-            entity.Property(e => e.Uid).HasColumnName("UId");
-            entity.Property(e => e.Email).HasMaxLength(256);
-            entity.Property(e => e.FullName).HasMaxLength(256);
-            entity.Property(e => e.Rid)
-                .HasMaxLength(450)
-                .HasColumnName("RId");
-            entity.Property(e => e.UserName).HasMaxLength(256);
-
-            entity.HasOne(d => d.RidNavigation).WithMany(p => p.Users)
-                .HasForeignKey(d => d.Rid)
-                .HasConstraintName("FK__Users__RId__208CD6FA");
         });
 
         modelBuilder.Entity<VChiTietHoaDon>(entity =>
@@ -503,4 +447,6 @@ public partial class MyeStoreContext : DbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+public DbSet<MyEStore.Models.LoginVM> LoginVM { get; set; } = default!;
 }

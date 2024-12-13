@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using MyEStore.Models;
-using MyEStore.Models.Services;
 using System.Diagnostics;
 
 namespace MyEStore.Controllers
 {
-    public class HomeController : Controller
+	public class HomeController : Controller
 	{
 		private readonly ILogger<HomeController> _logger;
 
@@ -18,12 +17,8 @@ namespace MyEStore.Controllers
 		{
 			return View();
 		}
-        public IActionResult Slug(string s)
-        {
-            return Content(s.ToSlug());
-        }
 
-        public IActionResult Privacy()
+		public IActionResult Privacy()
 		{
 			return View();
 		}
@@ -32,11 +27,6 @@ namespace MyEStore.Controllers
 		public IActionResult Error()
 		{
 			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-		}
-
-		public IActionResult Subscribe()
-		{
-			return View();
 		}
 	}
 }

@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MyEStore.styles.css" asp-append-version="true" />
-
-    @RenderSection("MyStyles", required: false)
-    
 </head>
 <body>
     <header>
@@ -38,17 +35,11 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Chào @User.Identity.Name</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Cart" asp-action="Index">Giỏ hàng</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="Logout">Đăng xuất</a>
                             </li>
                         }
                         else
                         {
-                            @* <li class="nav-item">
-                                <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
-                            </li> *@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="Register">Đăng ký</a>
                             </li>
@@ -112,7 +103,6 @@
     attribution=setup_tool
     page_id="61569519171133">
     </div>
-
 
 </body>
 </html>

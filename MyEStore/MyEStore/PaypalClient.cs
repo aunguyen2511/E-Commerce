@@ -47,7 +47,7 @@ namespace MyEStore
             return response;
         }
 
-        public async Task<CreateOrderResponse> CreateOrder(string value, string currency, string reference)
+        public async Task<CreateOrderResponse> CreateOder(string value, string currency, string reference)
         {
             var auth = await Authenticate();
             var request = new CreateOrderRequest

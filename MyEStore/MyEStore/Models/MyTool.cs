@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using static NuGet.Packaging.PackagingConstants;
 
-namespace MyEStore.Models.Services
+namespace MyEStore.Models
 {
     public class MyTool
     {
@@ -15,7 +15,7 @@ namespace MyEStore.Models.Services
             try
             {
                 var fileName = $"{DateTime.Now.Ticks}_{file.FileName}";
-                var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Hinh", /* Cái Hinh này ở trong đồ án mình là img */ folderName, fileName);
+                var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Hinh", /* Cái Hinh này ở trong đồ án mình là img */ folderName, fileName); 
                 using (var myFile = new FileStream(fullPath, FileMode.Create))
                 {
                     file.CopyTo(myFile);

@@ -11,11 +11,11 @@
         <thead>
             <tr>
                 <th class="pro-thumbnail">Thumbnail</th>
-                <th class="pro-title">Tên sản phẩm</th>
-                <th class="pro-price">Đơn giá</th>
-                <th class="pro-quantity">Số lượng</th>
-                <th class="pro-subtotal">Thành tiền</th>
-                <th class="pro-remove">Xoá</th>
+                <th class="pro-title">Product</th>
+                <th class="pro-price">Price</th>
+                <th class="pro-quantity">Quantity</th>
+                <th class="pro-subtotal">Total</th>
+                <th class="pro-remove">Remove</th>
             </tr>
         </thead>
 
@@ -29,7 +29,7 @@
                         </a>
                     </td>
                     <td>@item.TenHh</td>
-                    <td>@item.DonGia.ToString("#,##0.00")</td>
+                    <td>@item.DonGia</td>
                     <td>
                         <input value="@item.SoLuong" min="1" type="number" class="so-luong-mua" onchange="updateQuantity(@item.MaHh, this.value)"/>
                     </td>
@@ -48,7 +48,7 @@
 
 <div>
     <a class="btn btn-danger" asp-action="ClearCart">Xoá giỏ hàng</a>
-    <a class="btn btn-success" asp-action="PaypalDemo" asp-controller="Payment">Proceed Checkout</a>
+    <a class="btn btn-success" asp-action="PaypalDemo" asp-controller="Payment">Thanh toán</a>
 </div>
 
 <!-- cái này là JavaScript để cập nhật số lượng khi bấm button tăng số lượng sản phẩm lúc đang trong giỏ hàng -->

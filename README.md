@@ -4,6 +4,8 @@
 
 Trước khi thực hiện đoạn mã SQL dưới đây vào cơ sở dữ liệu, hãy nhớ **xóa đoạn mã sau**:
 
+Tên Đăng nhập là asd mk: 123, jindou mk: 123
+
 ```sql
 CONTAINMENT = NONE
 ON PRIMARY 

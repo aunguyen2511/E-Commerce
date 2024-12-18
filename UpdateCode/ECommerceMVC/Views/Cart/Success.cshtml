@@ -1,0 +1,58 @@
+﻿@model ECommerceMVC.Data.HoaDon
+
+<div class="container py-5 mt-5">
+    <h1 class="text-center">Thank You for Your Order!</h1>
+
+    <div class="invoice-info mt-4">
+        <h4>Invoice Number: <span class="text-primary">#@Model.MaHd</span></h4>
+        <p>Order Date: <span class="text-muted">@Model.NgayDat.ToString("MMMM dd, yyyy")</span></p>
+        <p>Payment Method: <span class="text-muted">@Model.CachThanhToan</span></p>
+        <p>Shipping Address: <span class="text-muted">@Model.DiaChi</span></p>
+        <p>Contact Number: <span class="text-muted">@Model.DienThoai</span></p>
+    </div>
+
+    <div class="customer-details mt-4">
+        <h5>Customer Information</h5>
+        <p>Name: <strong>@Model.HoTen</strong></p>
+    </div>
+
+    <h5 class="mt-4">Order Summary</h5>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ChiTietHds)
+            {
+                <tr>
+                    <td>@item.MaHd</td> <!-- Sử dụng navigation property để hiển thị tên sản phẩm -->
+                    <td>@item.SoLuong</td>
+                    <td>$@item.DonGia.ToString("#,##0.00")</td>
+                    
+                    <td>@string.Format("{0:#,##0.00} $", item.SoLuong * item.DonGia)</td>
+
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right"><strong>Total Amount:</strong></td>
+                <td><strong>$@Model.ChiTietHds.Sum(x => x.SoLuong * x.DonGia).ToString("#,##0.00")</strong></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="text-right"><strong>Grand Total:</strong></td>
+                <td><strong>$@Model.ChiTietHds.Sum(x => x.SoLuong * x.DonGia).ToString("#,##0.00")</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-center mt-4">
+        <a href="/download-invoice/@Model.MaHd" class="btn btn-primary">Download Invoice</a>
+        <a href="/contact-support" class="btn btn-secondary">Contact Support</a>
+    </div>
+</div>

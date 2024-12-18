@@ -1,0 +1,1801 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerceMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ECommerceMVC.nqv99l6tvr.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\1009.gif",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\1009.gif"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\21meTyhQebL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\21meTyhQebL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31EPGSm2s1L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31EPGSm2s1L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31LAnW1JFqL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31LAnW1JFqL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31TB6tC6BOL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31TB6tC6BOL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31YOss-gC-L._AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31YOss-gC-L._AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31hCgES5GXL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31hCgES5GXL._AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31ioCUUFnoL.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31ioCUUFnoL.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31jsjfVfH9L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31jsjfVfH9L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31ncPnMYCxL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31ncPnMYCxL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31pAGovVENL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31pAGovVENL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31pT+SdvQXL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31pT+SdvQXL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\31yxRemzRLL._SS350_ (1).jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\31yxRemzRLL._SS350_ (1).jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41-yvkFqVZL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41-yvkFqVZL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\410PjzqoC8L._AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\410PjzqoC8L._AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\415cOCbey.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\415cOCbey.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\415cOCbeyML.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\415cOCbeyML.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\416OcTXFfeL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\416OcTXFfeL._AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\416pdroSEkL.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\416pdroSEkL.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\419WCoqfamL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\419WCoqfamL._AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41A9R5KXCXL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41A9R5KXCXL._AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41BiMx1FKyL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41BiMx1FKyL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41CIcYRxJKL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41CIcYRxJKL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41G38jC0ajL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41G38jC0ajL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41GVLtgNngL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41GVLtgNngL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41IPLmZIKhL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41IPLmZIKhL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41KALboJKuL.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41KALboJKuL.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41LMouG6j7L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41LMouG6j7L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41MJUdI2jdL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41MJUdI2jdL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41Pg1ahql8L._AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41Pg1ahql8L._AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41RxtSQOd2L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41RxtSQOd2L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41TexqWVkHL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41TexqWVkHL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41V4Ds2PtZL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41V4Ds2PtZL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41WvZnGYUkL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41WvZnGYUkL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41XX7Pi240L.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41XX7Pi240L.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41Ymq8fjbOL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41Ymq8fjbOL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41Z43OmFHjL._SX342_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41Z43OmFHjL._SX342_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41ZE9SmWdzL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41ZE9SmWdzL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41brDHtPY9L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41brDHtPY9L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41iDo0HDhbL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41iDo0HDhbL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41iji4-9UsL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41iji4-9UsL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41lffECD-sL._SY445_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41lffECD-sL._SY445_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41qfgTvFBwL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41qfgTvFBwL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41qlcUEhNmL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41qlcUEhNmL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41riQRGf-6L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41riQRGf-6L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41sd2DTD8EL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41sd2DTD8EL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41sdBTtnUDL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41sdBTtnUDL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41sl3FN6NpL.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41sl3FN6NpL.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41sw9ASUvBL._SX342_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41sw9ASUvBL._SX342_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41w4TlVPhGL.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41w4TlVPhGL.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41wHu2N4tVL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41wHu2N4tVL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41yh1vBmqsL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41yh1vBmqsL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\41zxxR71G+L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\41zxxR71G+L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51+4d3VBFvL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51+4d3VBFvL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\513UnnRfFML._SL1001_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\513UnnRfFML._SL1001_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\515p1IeP0-L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\515p1IeP0-L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\5195-l+nflL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\5195-l+nflL._AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51GBNkHO6vL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51GBNkHO6vL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51JhyHtnEgL._SL1001_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51JhyHtnEgL._SL1001_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51Lj5bxbNtL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51Lj5bxbNtL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51Z9tfgl4aL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51Z9tfgl4aL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51czOOat0OL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51czOOat0OL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51l46qQB50L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51l46qQB50L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51nukXFJLJL.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51nukXFJLJL.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51pvLIvb6ZL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51pvLIvb6ZL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51s6pbRlNyL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51s6pbRlNyL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51uJ-pWfc9L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51uJ-pWfc9L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51vxcBS1sQL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51vxcBS1sQL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51w+JqOnmSL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51w+JqOnmSL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51y46IslQkL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51y46IslQkL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\51yomC0EodL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\51yomC0EodL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\71bJrFAys9L._SL1280_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\71bJrFAys9L._SL1280_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\71cBwWAgvIL._SL1430_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\71cBwWAgvIL._SL1430_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\816zGZv1ORL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\816zGZv1ORL._SL1500_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\81Q1DvOnnoL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\81Q1DvOnnoL._SL1500_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\81k1XbQ6nQL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\81k1XbQ6nQL._SL1500_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\91FM0Hog9FL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\91FM0Hog9FL._SL1500_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\91JUBDf1jTL._AA1500_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\91JUBDf1jTL._AA1500_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\91T2BjUkYmL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\91T2BjUkYmL._SL1500_.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\Camera1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\Camera1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\To.gif",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\To.gif"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\KhachHang\\__couple_1_638698825065443740.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\KhachHang\\__couple_1_638698825065443740.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\KhachHang\\chibicap_638697670305825439.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\KhachHang\\chibicap_638697670305825439.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai11.jpeg",
+      "PackagePath": "staticwebassets\\Hinh\\Loai11.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Accept.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Accept.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Alarm.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Alarm.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Anchor.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Anchor.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Bell.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Bell.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Best.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Best.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Billboard.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Billboard.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Bomb.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Bomb.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Brick house.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Brick house.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Bricks.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Bricks.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Buddy.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Buddy.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Certificate.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Certificate.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Dice.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Dice.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Dollar.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Dollar.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Favourites.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Favourites.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Funny.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Funny.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Heart.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Heart.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Microsoft.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Microsoft.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Unlock.png",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\Unlock.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\agenda_1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\agenda_1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loaiimages.jpeg",
+      "PackagePath": "staticwebassets\\Hinh\\Loaiimages.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\Acer_logo-300x300.gif",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\Acer_logo-300x300.gif"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\amd-logo.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\amd-logo.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\apple.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\apple.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\dell-logo.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\dell-logo.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\dell-logo2.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\dell-logo2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\hp-logo.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\hp-logo.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\intel-logo.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\intel-logo.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\motorola.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\motorola.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\nokia.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\nokia.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\samsung-logo-2.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\samsung-logo-2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\samsung.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\samsung.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\shopping_cart.png",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\shopping_cart.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\NhaCC\\sonny-ericsson.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\NhaCC\\sonny-ericsson.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Others\\shopping_cart.png",
+      "PackagePath": "staticwebassets\\Hinh\\Others\\shopping_cart.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\divider.gif",
+      "PackagePath": "staticwebassets\\Hinh\\divider.gif"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Accept.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Accept.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Add to basket.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Add to basket.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Add.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Add.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Address book.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Address book.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Alarm.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Alarm.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Anchor.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Anchor.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Application form.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Application form.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Bar chart.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Bar chart.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Basket.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Basket.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Bell.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Bell.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Best.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Best.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Billboard.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Billboard.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Bluetooth.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Bluetooth.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Bomb.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Bomb.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Book.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Book.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Bookmark.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Bookmark.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Box.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Box.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Boy.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Boy.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Brick house.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Brick house.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Bricks.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Bricks.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Brief case.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Brief case.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Brightness.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Brightness.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Bubble.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Bubble.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Buddy.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Buddy.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Cable.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Cable.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Calculator.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Calculator.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Calendar.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Calendar.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Call.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Call.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Camera.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Camera.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Card file.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Card file.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Cash register.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Cash register.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Cat.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Cat.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Certificate.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Certificate.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Clien list.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Clien list.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Clipboard.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Clipboard.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Clock.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Clock.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Closed door.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Closed door.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Closed folder.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Closed folder.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Coin.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Coin.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Coins.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Coins.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Color wheel.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Color wheel.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Comment.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Comment.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Comments.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Comments.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Company.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Company.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Computer.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Computer.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Conference.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Conference.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Connect.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Connect.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Construction.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Construction.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Contrast.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Contrast.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Control panel.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Control panel.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Create.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Create.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Database.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Database.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Date.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Date.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Delete.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Delete.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Desktop.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Desktop.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Diagram.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Diagram.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Dice.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Dice.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Disconnect.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Disconnect.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Discussion.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Discussion.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Document.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Document.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Documents.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Documents.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Dog.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Dog.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Dollar.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Dollar.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Down.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Down.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Download.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Download.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Edit.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Edit.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Euro.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Euro.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Exit button.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Exit button.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Exit.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Exit.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Favourites.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Favourites.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Fax.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Fax.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Flash drive.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Flash drive.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Flow block.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Flow block.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Free.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Free.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Friends.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Friends.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Full basket.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Full basket.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Funny.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Funny.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Game controller.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Game controller.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Gear.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Gear.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Genealogy.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Genealogy.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Gift.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Gift.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Girl.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Girl.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Globe.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Globe.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Handshake.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Handshake.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Happy.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Happy.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Hard disk.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Hard disk.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Heart.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Heart.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Help.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Help.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Hierarchy.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Hierarchy.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Home.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Home.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Hungup.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Hungup.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Industry.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Industry.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Info.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Info.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Key.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Key.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Label.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Label.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Left.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Left.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Lego brick.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Lego brick.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Letter.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Letter.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\List.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\List.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Lists.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Lists.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Lock.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Lock.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Log out.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Log out.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Login.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Login.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Mail.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Mail.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Microsoft.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Microsoft.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Mobile phone.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Mobile phone.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Money.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Money.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Monitor.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Monitor.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Mouse.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Mouse.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Music.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Music.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\No.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\No.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Notes.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Notes.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Numbered list.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Numbered list.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\OK.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\OK.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Online.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Online.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Open door.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Open door.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Open file.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Open file.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Open folder.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Open folder.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Open letter.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Open letter.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Open lock.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Open lock.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Payment.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Payment.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Peace.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Peace.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Pets.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Pets.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Phone.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Phone.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Piggy bank.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Piggy bank.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Piggy.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Piggy.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Pointer.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Pointer.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Pound.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Pound.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Price list.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Price list.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Print preview.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Print preview.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Print.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Print.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Printer.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Printer.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Problem.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Problem.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Properties.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Properties.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\RSS.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\RSS.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Red star.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Red star.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Refresh.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Refresh.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Remove from basket.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Remove from basket.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Report.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Report.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Right.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Right.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Rouble.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Rouble.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Sad.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Sad.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Safe.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Safe.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Save as.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Save as.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Save.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Save.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Scroll list.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Scroll list.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Search.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Search.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Shield.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Shield.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Smile.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Smile.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Software.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Software.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Statistics.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Statistics.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Stop.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Stop.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Task list.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Task list.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Telephone.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Telephone.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Text.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Text.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Tick.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Tick.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\To do list.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\To do list.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Trash.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Trash.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Unknown person.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Unknown person.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Unlock.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Unlock.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Unordered list.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Unordered list.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Up.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Up.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Upload.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Upload.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\User group.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\User group.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\User.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\User.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Users.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Users.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Wallet.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Wallet.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Warning.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Warning.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Weather.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Weather.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Wireless.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Wireless.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Wizard.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Wizard.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Yen.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Yen.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Yin-Yang.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Yin-Yang.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Zoom in.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Zoom in.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Zoom out.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Zoom out.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\Zoom.png",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\Zoom.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\eng.gif",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\eng.gif"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\icons\\vit.gif",
+      "PackagePath": "staticwebassets\\Hinh\\icons\\vit.gif"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\cart.html",
+      "PackagePath": "staticwebassets\\cart.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\chackout.html",
+      "PackagePath": "staticwebassets\\chackout.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\baner-1.png",
+      "PackagePath": "staticwebassets\\img\\baner-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\banner-fruits.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-fruits.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\best-product-1.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\best-product-2.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\best-product-3.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\best-product-4.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\best-product-5.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\best-product-6.jpg",
+      "PackagePath": "staticwebassets\\img\\best-product-6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\cart-page-header-img.jpg",
+      "PackagePath": "staticwebassets\\img\\cart-page-header-img.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\featur-1.jpg",
+      "PackagePath": "staticwebassets\\img\\featur-1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\featur-2.jpg",
+      "PackagePath": "staticwebassets\\img\\featur-2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\featur-3.jpg",
+      "PackagePath": "staticwebassets\\img\\featur-3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\fruite-item-1.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\fruite-item-2.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\fruite-item-3.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\fruite-item-4.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\fruite-item-5.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\fruite-item-6.jpg",
+      "PackagePath": "staticwebassets\\img\\fruite-item-6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\hero-img-1.png",
+      "PackagePath": "staticwebassets\\img\\hero-img-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\hero-img-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-img-2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\hero-img.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-img.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\payment.png",
+      "PackagePath": "staticwebassets\\img\\payment.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\single-item.jpg",
+      "PackagePath": "staticwebassets\\img\\single-item.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\vegetable-item-1.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\vegetable-item-2.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\vegetable-item-3.png",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-3.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\vegetable-item-4.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\vegetable-item-5.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\vegetable-item-6.jpg",
+      "PackagePath": "staticwebassets\\img\\vegetable-item-6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\lightbox\\images\\close.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\close.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\lightbox\\images\\next.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\next.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\lightbox\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\prev.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\shop-detail.html",
+      "PackagePath": "staticwebassets\\shop-detail.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\shop.html",
+      "PackagePath": "staticwebassets\\shop.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\testimonial.html",
+      "PackagePath": "staticwebassets\\testimonial.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerceMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerceMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ECommerceMVC.props",
+      "PackagePath": "build\\ECommerceMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ECommerceMVC.props",
+      "PackagePath": "buildMultiTargeting\\ECommerceMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ECommerceMVC.props",
+      "PackagePath": "buildTransitive\\ECommerceMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

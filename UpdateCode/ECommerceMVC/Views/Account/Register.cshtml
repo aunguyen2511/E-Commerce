@@ -1,0 +1,115 @@
+﻿@model ECommerceMVC.ViewModels.RegisterVM
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container py-5" style="margin-top: 100px;">
+    <!-- Thêm margin-top -->
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="text-center">Đăng Ký Tài Khoản</h2>
+
+                    @if (TempData["Message"] != null)
+                    {
+                        <div class="alert alert-success">
+                            @TempData["Message"]
+                        </div>
+                    }
+
+                    <form asp-action="Register" enctype="multipart/form-data">
+                        <!-- Username -->
+                        <div class="form-group mb-3">
+                            <label asp-for="MaKh" class="form-label">Username</label><sup>*</sup>
+                            <input asp-for="MaKh" class="form-control" placeholder="Enter your username">
+                            <span asp-validation-for="MaKh" class="text-danger"></span>
+                        </div>  
+                        
+                        <!-- Full Name -->
+                        <div class="form-group mb-3">
+                            <label asp-for="HoTen" class="form-label">Full Name</label><sup>*</sup>
+                            <input asp-for="HoTen" class="form-control" placeholder="Enter your full name">
+                            <span asp-validation-for="HoTen" class="text-danger"></span>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="form-group mb-3">
+                            <label asp-for="MatKhau" class="form-label">Password</label><sup>*</sup>
+                            <input asp-for="MatKhau" class="form-control" type="password" placeholder="Enter a strong password">
+                            <span asp-validation-for="MatKhau" class="text-danger"></span>
+                        </div>
+
+                        <!-- Confirm Password -->
+                        <div class="form-group mb-3">
+                            <label asp-for="ConfirmMatKhau" class="form-label">Confirm Password</label><sup>*</sup>
+                            <input asp-for="ConfirmMatKhau" class="form-control" type="password" placeholder="Re-enter your password">
+                            <span asp-validation-for="ConfirmMatKhau" class="text-danger"></span>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label">Email</label><sup>*</sup>
+                            <input asp-for="Email" class="form-control" type="email" placeholder="Enter your email">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- Gender -->
+                        <div class="form-group mb-3">
+                            <label asp-for="GioiTinh" class="form-label">Gender</label><sup>*</sup>
+                            <div class="form-check">
+                                <input asp-for="GioiTinh" class="form-check-input" type="radio" value="true" id="genderMale">
+                                <label class="form-check-label" for="genderMale">Male</label>
+                            </div>
+                            <div class="form-check">
+                                <input asp-for="GioiTinh" class="form-check-input" type="radio" value="false" id="genderFemale">
+                                <label class="form-check-label" for="genderFemale">Female</label>
+                            </div>
+                            <span asp-validation-for="GioiTinh" class="text-danger"></span>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="form-group mb-3">
+                            <label asp-for="DiaChi" class="form-label">Address</label><sup>*</sup>
+                            <input asp-for="DiaChi" class="form-control" type="text" placeholder="Enter your address">
+                            <span asp-validation-for="DiaChi" class="text-danger"></span>
+                        </div>
+
+                        <!-- Date of birth -->
+                        <div class="form-group mb-3">
+                            <label asp-for="NgaySinh" class="form-label">Date of birth</label><sup>*</sup>
+                            <input asp-for="NgaySinh" class="form-control" type="date" placeholder="Enter your Date of birth">
+                            <span asp-validation-for="NgaySinh" class="text-danger"></span>
+                        </div>
+
+                        
+                        <!-- Phone -->
+                        <div class="form-group mb-3">
+                            <label asp-for="DienThoai" class="form-label">Phone</label><sup>*</sup>
+                            <input asp-for="DienThoai" class="form-control" type="tel" placeholder="Enter your phone number">
+                            <span asp-validation-for="DienThoai" class="text-danger"></span>
+                        </div>
+
+
+                        <!-- Profile Picture -->
+                        <div class="form-group mb-3">
+                            <label class="form-label" for="Hinh">Profile Picture</label><sup>*</sup>
+                            <input type="file" name="Hinh" class="form-control">
+                        </div>
+
+                        <!-- Submit button -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </div>
+
+                        <!-- Link to Login -->
+                        <div class="text-center mt-3">
+                            <p>Already have an account? <a asp-action="Login" asp-controller="Account">Log in here</a>.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

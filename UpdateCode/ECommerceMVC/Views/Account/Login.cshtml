@@ -1,0 +1,58 @@
+﻿@model ECommerceMVC.ViewModels.LoginVM
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container py-5" style="margin-top: 100px;">
+    <!-- Thêm margin-top nếu cần -->
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="text-center">Đăng Nhập</h2>
+
+                    @if (TempData["Message"] != null)
+                    {
+                        <div class="alert alert-danger">
+                            @TempData["Message"]
+                        </div>
+                    }
+
+                    <form asp-action="Login" asp-route-returnurl="@ViewBag.ReturnUrl">
+                        <div class="text-danger" asp-validation-summary="All"></div>
+
+                        <!-- Username -->
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.UserName" class="form-label">Tên đăng nhập</label><sup>*</sup>
+                            <input asp-for="@Model.UserName" class="form-control" placeholder="Nhập tên đăng nhập">
+                            <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.Password" class="form-label">Mật khẩu</label><sup>*</sup>
+                            <input asp-for="@Model.Password" class="form-control" type="password" placeholder="Nhập mật khẩu">
+                            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit button -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                        </div>
+
+                        <!-- Link to Forgot Password -->
+                        <div class="text-center mt-3">
+                            <p><a asp-controller="KhachHang" asp-action="QuenMatKhau">Quên mật khẩu?</a></p>
+                        </div>
+
+                        <!-- Link to Register -->
+                        <div class="text-center mt-3">
+                            <p>Chưa có tài khoản? <a asp-controller="Account" asp-action="Register">Đăng ký tại đây</a>.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

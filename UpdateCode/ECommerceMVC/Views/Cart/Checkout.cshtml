@@ -1,0 +1,167 @@
+﻿@model IEnumerable<ECommerceMVC.ViewModels.CartItem>
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<!-- Single Page Header start -->
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">Checkout</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+        <li class="breadcrumb-item active text-white">Checkout</li>
+    </ol>
+</div>
+<!-- Single Page Header End -->
+
+<!-- Checkout Page Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Billing details</h1>
+        <form asp-action="Checkout" asp-controller="Cart" method="post">
+            <div class="row g-5">
+                <div class="col-md-12 col-lg-6">
+                    <h4 class="mb-3">Shipping Information</h4>
+                    <div class="form-check my-3">
+                        <input type="checkbox" name="GiongKhachHang" class="form-check-input" id="GiongKhachHang" value="true">
+                        <label class="form-check-label" for="GiongKhachHang">Use same information for billing?</label>
+                    </div>
+                    <div class="form-item delivery-info">
+                        <label class="form-label my-3">Recipient Name<sup>*</sup></label>
+                        <input type="text" name="HoTen" class="form-control" required>
+                    </div>
+                    <div class="form-item delivery-info">
+                        <label class="form-label my-3">Shipping Address<sup>*</sup></label>
+                        <input type="text" name="DiaChi" class="form-control" placeholder="123 Lê Lợi, Quận 1" required>
+                    </div>
+                    <div class="form-item delivery-info">
+                        <label class="form-label my-3">Phone<sup>*</sup></label>
+                        <input type="text" name="DienThoai" class="form-control" required>
+                    </div>
+                    <div class="form-item mt-3">
+                        <textarea name="GhiChu" class="form-control" spellcheck="false" cols="30" rows="5" placeholder="Notes"></textarea>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6">
+                    <h4 class="mb-3">Order Summary</h4>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Products</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <th scope="row">
+                                            <img src="~/Hinh/HangHoa/@item.Hinh" class="img-fluid" style="width: 90px; height: 90px;" alt="@item.TenHH">
+                                        </th>
+                                        <td>@item.TenHH</td>
+                                        <td>$@item.DonGia.ToString("#,##0.00")</td>
+                                        <td>@item.SoLuong</td>
+                                        <td>$@item.ThanhTien.ToString("#,##0.00")</td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td colspan="3"></td>
+                                    <td>Subtotal</td>
+                                    <td>$@Model.Sum(p => p.ThanhTien).ToString("#,##0.00")</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="mb-3">Phương thức vận chuyển</h4>
+            <select name="CachVanChuyen" class="form-select" required>
+                <option value="">Chọn phương thức vận chuyển</option>
+                <option value="Free">Free Shipping</option>
+                <option value="GHN">Giao Hang Nhanh</option>
+                <option value="Grab">Grab</option>
+                <option value="Viettel">Viettel Post</option>
+            </select>
+
+            <h4 class="mb-3">Phương thức thanh toán</h4>
+            <div class="form-check">
+                <input type="radio" name="CachThanhToan" value="Credit Card" class="form-check-input" id="CreditCard" required>
+                <label class="form-check-label" for="CreditCard">Credit Card</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" name="CachThanhToan" value="PayPal" class="form-check-input" id="PayPal" required>
+                <label class="form-check-label" for="PayPal">PayPal</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" name="CachThanhToan" value="CashOnDelivery" class="form-check-input" id="CashOnDelivery" required>
+                <label class="form-check-label" for="CashOnDelivery">Cash on Delivery</label>
+            </div>
+
+            <div id="paypal-button-container" class="form-item mt-3" style="max-width:1000px;"></div>
+
+            <button type="submit" class="btn btn-primary mt-4">Place Order</button>
+        </form>
+    </div>
+</div>
+
+<!-- Checkout Page End -->
+@section Scripts {
+    <script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.PaypalClientId"></script>
+   
+    <script>
+        $(document).ready(function () {
+            $("#GiongKhachHang").change(function () {
+                if ($(this).prop("checked")) {
+                    $(this).val(true);
+                    $(".delivery-info").addClass("d-none");
+                } else {
+                    $(this).val(false);
+                    $(".delivery-info").removeClass("d-none");
+                }
+            });
+        });
+
+        paypal.Buttons({
+            style: {
+                layout: 'vertical',
+                color: 'silver',
+                tagline: false
+            },
+            createOrder: (data, actions) => {
+                return fetch("/Cart/create-paypal-order", {
+                    method: "post"
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+                    return response.json();
+                }).then((order) => order.id)
+                .catch(error => {
+                    alert("Error creating PayPal order: " + error.message);
+                    throw error;
+                });
+            },
+            onApprove: (data, actions) => {
+                return fetch(`/Cart/capture-paypal-order?orderID=${data.orderID}`, {
+                    method: "post"
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    // Update the payment method and submit the form
+                    $("input[name='CachThanhToan'][value='PayPal']").prop("checked", true);
+                    document.querySelector("form").submit();
+                }).catch(error => {
+                    alert("Error capturing PayPal order: " + error.message);
+                });
+            }
+        }).render('#paypal-button-container');
+    </script>
+}

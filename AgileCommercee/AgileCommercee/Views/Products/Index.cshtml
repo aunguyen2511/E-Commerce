@@ -1,0 +1,16 @@
+﻿@model IEnumerable<StatisticResult>
+
+<h2>Product Statistics</h2>
+<table>
+    <tr>
+        <th>Category/Supplier</th>
+        <th>Count</th>
+    </tr>
+    @foreach (var stat in Model)
+    {
+        <tr>
+            <td>@stat.Category</td>
+            <td>@stat.Count</td>
+        </tr>
+    }
+</table>

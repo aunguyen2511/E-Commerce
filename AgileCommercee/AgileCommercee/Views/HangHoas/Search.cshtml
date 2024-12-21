@@ -1,0 +1,28 @@
+﻿@model IEnumerable<AgileCommercee.Entities.HangHoa>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li class="cat-list-item">
+            <a href="#" title="@item.TenHh">@item.TenHh</a>
+        </li>
+    }
+</ul>
+
+$(document).ready(function() {
+    $('#search-field').on('input', function() {
+        var query = $(this).val();
+
+        if (query.length > 0) {
+            $.ajax({
+                url: '@Url.Action("Search", "HangHoa")',
+                data: { s: query },
+                success: function(result) {
+                    $('#search-results').html(result);
+                }
+            });
+        } else {
+            $('#search-results').empty();
+        }
+    });
+});

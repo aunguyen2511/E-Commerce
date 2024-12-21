@@ -1,0 +1,283 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AgileCommercee
+build_property.RootNamespace = AgileCommercee
+build_property.ProjectDir = D:\SA of Ecommerce\AgileCommercee\AgileCommercee\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\SA of Ecommerce\AgileCommercee\AgileCommercee
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/AfterLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQWZ0ZXJMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/CustomerLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3VzdG9tZXJMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/ForgetPass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRm9yZ2V0UGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/Main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTWFpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/QLTK.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUUxUSy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/RegisterAD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUmVnaXN0ZXJBRC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Accounts/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Cart/GetCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxHZXRDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/DetailsCus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRGV0YWlsc0N1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/IndexCus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcSW5kZXhDdXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/StatisticByCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcU3RhdGlzdGljQnlDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/StatisticBySupplier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcU3RhdGlzdGljQnlTdXBwbGllci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/StatisticBySupplierCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcU3RhdGlzdGljQnlTdXBwbGllckNhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/HangHoas/_SearchResultsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcX1NlYXJjaFJlc3VsdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Loais/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Loais/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Loais/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Loais/DetailsCus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haXNcRGV0YWlsc0N1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Loais/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Loais/GetProductByCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haXNcR2V0UHJvZHVjdEJ5Q2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Loais/GetProductByCategoriesCus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haXNcR2V0UHJvZHVjdEJ5Q2F0ZWdvcmllc0N1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Loais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Loais/IndexCus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haXNcSW5kZXhDdXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/NhaCungCaps/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/NhaCungCaps/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/NhaCungCaps/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/NhaCungCaps/DetailsCus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcHNcRGV0YWlsc0N1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/NhaCungCaps/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/NhaCungCaps/GetProductBySuppliers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcHNcR2V0UHJvZHVjdEJ5U3VwcGxpZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/NhaCungCaps/GetProductBySuppliersCus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcHNcR2V0UHJvZHVjdEJ5U3VwcGxpZXJzQ3VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/NhaCungCaps/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/NhaCungCaps/IndexCus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcHNcSW5kZXhDdXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Products/Statistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU3RhdGlzdGljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Shared/_BaboonStore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYWJvb25TdG9yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Shared/_BaboonStoreAfterLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYWJvb25TdG9yZUFmdGVyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Shared/_BaboonStoreCusLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYWJvb25TdG9yZUN1c0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Shared/_TimKiemPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UaW1LaWVtUGFuZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Statistis/StatisticByCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGlzXFN0YXRpc3RpY0J5Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Statistis/StatisticBySupplier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGlzXFN0YXRpc3RpY0J5U3VwcGxpZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Statistis/StatisticBySupplierCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGlzXFN0YXRpc3RpY0J5U3VwcGxpZXJDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Subscribe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SA of Ecommerce/AgileCommercee/AgileCommercee/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n035wlvrse

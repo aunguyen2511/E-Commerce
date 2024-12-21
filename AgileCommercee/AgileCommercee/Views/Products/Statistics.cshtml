@@ -1,0 +1,21 @@
+﻿@model IEnumerable<AgileCommercee.Models.StatisticResult>
+
+<table>
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Count</th>
+            <th>Total Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Category</td>
+                <td>@item.Count</td>
+                <td>@item.TotalValue</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,272 @@
+﻿@model IEnumerable<AgileCommercee.Entities.HangHoa>
+
+@{
+    ViewData["Tittle"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <title>Ministore - @ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="~/MiniStore-1.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/MiniStore-1.0.0/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<body>
+    <h1 align="center">PRODUCT MANAGEMENT</h1>
+
+    <div align="left">
+        <a button type="submit" class="btn btn-secondary" href="/Accounts/AfterLogin"> Home</a> |
+        <a button type="submit" class="btn btn-outline-dark" href="/Loais">Category</a> |
+        <a button type="submit" class="btn btn-outline-dark" href="/NhaCungCaps">Supplier</a>
+    </div>
+
+    <hr />
+
+    <p align="center" class="d-flex justify-content-between">
+        <a button type="submit" class="btn btn-primary" asp-action="Create">Add more Product</a>
+        <a button type="submit" class="btn btn-primary" href="/Statistic/ByCategoryV2">Product statistic by Category</a>
+        <a button type="submit" class="btn btn-primary" href="/Statistic/BySupplierV2">Product statistic by Supplier</a>
+        <a button type="submit" class="btn btn-primary" href="/Statistic/BySupplierCategoryV2">Product statistic by Supplier & Category</a>
+    </p>
+
+    <br />
+
+    <table class="table table-bordered" border="1">
+        <thead align="center">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TenHh)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MaLoaiNavigation)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.DonGia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Hinh)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NgaySx)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.GiamGia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SoLanXem)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MoTa)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MaNccNavigation)
+                </th>
+                <th>Product Management</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenHh)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaLoaiNavigation.TenLoai)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DonGia)
+                    </td>
+                    <td>
+                        <img width="200px" height="200px" src="~/images/HangHoas/@item.Hinh" alt="@item.TenHh" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NgaySx)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GiamGia)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SoLanXem)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MoTa)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaNccNavigation.TenCongTy)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.MaHh">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.MaHh">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.MaHh">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <footer id="footer" class="overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="footer-top-area">
+                    <div class="row d-flex flex-wrap justify-content-between">
+                        <div class="col-lg-3 col-sm-6 pb-3">
+                            <div class="footer-menu">
+                                <img width="300px" width="300px" src="~/images/BaboonStore.png" alt="logo">
+                                <p>Baboon Store tư vấn theo cách của chúng tôi, chọn lựa theo cách của bạn.</p>
+                                <div class="social-links">
+                                    <ul class="d-flex list-unstyled">
+                                        <li>
+                                            <a href="#">
+                                                <svg class="facebook">
+                                                    <use xlink:href="#facebook" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg class="instagram">
+                                                    <use xlink:href="#instagram" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg class="twitter">
+                                                    <use xlink:href="#twitter" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg class="linkedin">
+                                                    <use xlink:href="#linkedin" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg class="youtube">
+                                                    <use xlink:href="#youtube" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6 pb-3">
+                            <div class="footer-menu text-uppercase">
+                                <h5 class="widget-title pb-2">Quick Links</h5>
+                                <ul class="menu-list list-unstyled text-uppercase">
+                                    <li class="menu-item pb-2">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li class="menu-item pb-2">
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li class="menu-item pb-2">
+                                        <a href="#">Shop</a>
+                                    </li>
+                                    <li class="menu-item pb-2">
+                                        <a href="#">Blogs</a>
+                                    </li>
+                                    <li class="menu-item pb-2">
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 pb-3">
+                            <div class="footer-menu text-uppercase">
+                                <h5 class="widget-title pb-2">Help & Info Help</h5>
+                                <ul class="menu-list list-unstyled">
+                                    <li class="menu-item pb-2">
+                                        <a href="#">Track Your Order</a>
+                                    </li>
+                                    <li class="menu-item pb-2">
+                                        <a href="#">Returns Policies</a>
+                                    </li>
+                                    <li class="menu-item pb-2">
+                                        <a href="#">Shipping + Delivery</a>
+                                    </li>
+                                    <li class="menu-item pb-2">
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                    <li class="menu-item pb-2">
+                                        <a href="#">Faqs</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 pb-3">
+                            <div class="footer-menu contact-item">
+                                <h5 class="widget-title text-uppercase pb-2">Contact Us</h5>
+                                <p>
+                                    Do you have any queries or suggestions? <a href="mailto:">walkeralan620@gmail.com</a>
+                                </p>
+                                <p>
+                                    If you need support? Just give us a call. <a href="tel:">+84 032 576 0816</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </footer>
+    <div id="footer-bottom">
+        <div class="container">
+            <div class="row d-flex flex-wrap justify-content-between">
+                <div class="col-md-4 col-sm-6">
+                    <div class="Shipping d-flex">
+                        <p>We ship with:</p>
+                        <div class="card-wrap ps-2">
+                            <img src="~/images/dhl.png" alt="visa">
+                            <img src="~/images/shippingcard.png" alt="mastercard">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="payment-method d-flex">
+                        <p>Payment options:</p>
+                        <div class="card-wrap ps-2">
+                            <img src="~/images/visa.jpg" alt="visa">
+                            <img src="~/images/mastercard.jpg" alt="mastercard">
+                            <img src="~/images/paypal.jpg" alt="paypal">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="copyright">
+                        <p>
+                            © Copyright 2023 MiniStore. Design by <a href="https://templatesjungle.com/">TemplatesJungle</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

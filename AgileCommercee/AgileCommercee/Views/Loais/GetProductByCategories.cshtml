@@ -1,0 +1,34 @@
+﻿@model IEnumerable<ProductByCategoryVM>
+
+@{
+    ViewData["Title"] = "GetProductByCategories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 align="center">Products from Category: @Model.FirstOrDefault()?.MaLoaiNavigation</h1>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Unit Price</th>
+            <th>Category</th>
+            <th>Status</th>
+
+        </tr>
+    </thead>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(m => product.HangHoaMaHh)</td>
+            <td>@Html.DisplayFor(m => product.HangHoaTenHh)</td>
+            <td>@Html.DisplayFor(m => product.DonGia)</td>
+            <td>@Html.DisplayFor(m => product.MaLoaiNavigation)</td>
+            <td>@Html.DisplayFor(m => product.Status)</td>
+        </tr>
+    }
+</table>
+<div>
+    <a class="btn btn-secondary" asp-action="Index">Back to Category List</a>
+</div>

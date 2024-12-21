@@ -1,0 +1,92 @@
+﻿@model AgileCommercee.Entities.NhaCungCap
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <title>BaboonStore - @ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="~/MiniStore-1.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/MiniStore-1.0.0/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<h1 align="center">EDITING THE SUPPLIER</h1>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaNcc" />
+            <div class="form-group">
+                <b><label asp-for="TenCongTy" class="control-label"></label></b>
+                <input asp-for="TenCongTy" class="form-control" />
+                <span asp-validation-for="TenCongTy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Logo" class="control-label"></label>
+                <input type="hidden" name="Logo" value="@Model.Logo" />
+                <img width="200px" height="200px" src="~/images//NhaCungCaps/@Model.Logo" alt="@Model.TenCongTy" />
+                <input type="file" name="FileLogo" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="NguoiLienLac" class="control-label"></label>
+                <input asp-for="NguoiLienLac" class="form-control" />
+                <span asp-validation-for="NguoiLienLac" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DienThoai" class="control-label"></label>
+                <input asp-for="DienThoai" class="form-control" />
+                <span asp-validation-for="DienThoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiaChi" class="control-label"></label>
+                <input asp-for="DiaChi" class="form-control" />
+                <span asp-validation-for="DiaChi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MoTa" class="control-label"></label>
+                <input asp-for="MoTa" class="form-control" />
+                <span asp-validation-for="MoTa" class="text-danger"></span>
+            </div>
+
+            <br />
+            <hr />
+
+            <div class="form-group d-flex justify-content-between">
+                <a button type="submit" class="btn btn-secondary" asp-action="Index">Back to Supplier List</a>
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

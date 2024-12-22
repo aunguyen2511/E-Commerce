@@ -1,0 +1,30 @@
+﻿@model ECommerceMVC.ViewModels.CheckoutVM
+
+<form asp-action="Checkout" asp-controller="Cart" method="post">
+	@Html.AntiForgeryToken()
+	<div class="form-check my-3">
+		@Html.CheckBoxFor(m => m.GiongKhachHang, new { @class = "form-check-input", @id = "GiongKhachHang", @Value = "false" })
+		<label class="form-check-label" for="GiongKhachHang">Giống thông tin khách hàng?</label>
+	</div>
+	<div class="form-item delivery-info">
+		<label class="form-label my-3">Người nhận hàng<sup>*</sup></label>
+		@Html.TextBoxFor(m => m.HoTen, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.HoTen, "", new { @class = "text-danger" })
+	</div>
+	<div class="form-item delivery-info">
+		<label class="form-label my-3">Địa chỉ nhận hàng<sup>*</sup></label>
+		@Html.TextBoxFor(m => m.DiaChi, new { @class = "form-control", @placeholder = "123 Lê Lợi, Quận 1" })
+		@Html.ValidationMessageFor(m => m.DiaChi, "", new { @class = "text-danger" })
+	</div>
+	<div class="form-item delivery-info">
+		<label class="form-label my-3">Điện thoại<sup>*</sup></label>
+		@Html.TextBoxFor(m => m.DienThoai, new { @class = "form-control" })
+		@Html.ValidationMessageFor(m => m.DienThoai, "", new { @class = "text-danger" })
+	</div>
+	<div class="form-item mt-3">
+		@Html.TextAreaFor(m => m.GhiChu, new { @class = "form-control", @spellcheck = "false", @cols = "30", @rows = "11", @placeholder = "Ghi chú" })
+		@Html.ValidationMessageFor(m => m.GhiChu, "", new { @class = "text-danger" })
+	</div>
+	<button type="submit" name="payment" class="btn border-secondary text-uppercase text-primary w-100 mt-2" value="COD">Đặt hàng (COD)</button>
+	<button type="submit" name="payment" class="btn border-secondary text-uppercase text-primary w-100 mt-2" value="Thanh toán VNPay">Thanh toán VNPay</button>
+</form>

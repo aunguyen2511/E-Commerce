@@ -1,0 +1,272 @@
+﻿@using System.Security.Claims
+@model ECommerceMVC.ViewModels.HangHoaVM
+@{
+    Layout = "~/Views/Shared/AdminDashboard/_AdminDashboard.cshtml";
+    ViewData["Title"] = "Delete Product";
+}
+
+<div class="container-scroller">
+    @* Top Menu *@
+    <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+            <a class="navbar-brand brand-logo" href="index.html"><img src="~/dashboard/assets/images/logo.svg" alt="logo" /></a>
+            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="~/dashboard/assets/images/logo-mini.svg" alt="logo" /></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                <span class="mdi mdi-menu"></span>
+            </button>
+            <div class="search-field d-none d-md-block">
+                <form class="d-flex align-items-center h-100" action="#">
+                    <div class="input-group">
+                        <div class="input-group-prepend bg-transparent">
+                            <i class="input-group-text border-0 mdi mdi-magnify"></i>
+                        </div>
+                        <input type="text" class="form-control bg-transparent border-0" placeholder="Search projects">
+                    </div>
+                </form>
+            </div>
+
+            @* Profile *@
+            <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item nav-profile dropdown">
+                    <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="nav-profile-img">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                // Lấy đường dẫn ảnh từ claim UserImage hoặc đường dẫn mặc định
+                                var userImage = User.FindFirst("UserImage")?.Value ?? Url.Content("~/Hinh/default-avatar.png");
+                                userImage = Url.Content("/" + userImage.TrimStart('/')); // Đảm bảo URL là tuyệt đối
+                                <img src="@userImage" alt="User Image" class="rounded-circle">
+                                <span class="availability-status online"></span>
+                            }
+                            else
+                            {
+                                <img src="/Hinh/default-avatar.png" alt="Default Image" class="rounded-circle">
+                                <span class="availability-status offline"></span>
+                            }
+
+
+                        </div>
+                        <div class="nav-profile-text">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                // Lấy tên người dùng từ claim Name
+                                var userName = User.FindFirst(ClaimTypes.Name)?.Value ?? "User";
+                                <p class="mb-1 text-black">@userName</p>
+                            }
+                            else
+                            {
+                                <p class="mb-1 text-black">Guest</p>
+                            }
+                        </div>
+                    </a>
+                    <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a class="dropdown-item" asp-area="Admin" asp-controller="Admin" asp-action="Profile">
+                                <i class="mdi mdi-cached me-2 text-success"></i> Activity Log
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" asp-area="Admin" asp-controller="Admin" asp-action="Logout">
+                                <i class="mdi mdi-logout me-2 text-primary"></i> Signout
+                            </a>
+                        }
+                        else
+                        {
+                            <a class="dropdown-item" asp-controller="Account" asp-action="Login">
+                                <i class="mdi mdi-login me-2 text-primary"></i> Login
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" asp-controller="Account" asp-action="Register">
+                                <i class="mdi mdi-account-plus me-2 text-success"></i> Register
+                            </a>
+                        }
+                    </div>
+                </li>
+
+
+                <li class="nav-item d-none d-lg-block full-screen-link">
+                    <a class="nav-link">
+                        <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+                    </a>
+                </li>
+
+                @* Notifications *@
+                <li class="nav-item dropdown">
+                    <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown " href="#" data-bs-toggle="dropdown">
+                        <i class="mdi mdi-bell-outline"></i>
+                        <span class="count-symbol bg-danger"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                        <h6 class="p-3 mb-0">Notifications</h6>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item preview-item">
+                            <div class="preview-thumbnail">
+                                <div class="preview-icon bg-warning">
+                                    <i class="mdi mdi-cog"></i>
+                                </div>
+                            </div>
+                            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <h6 class="preview-subject font-weight-normal mb-1">Settings</h6>
+                                <p class="text-gray ellipsis mb-0"> Update dashboard </p>
+                            </div>
+                        </a>
+
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item preview-item">
+                            <div class="preview-thumbnail">
+                                <div class="preview-icon bg-info">
+                                    <i class="mdi mdi-link-variant"></i>
+                                </div>
+                            </div>
+                            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <h6 class="preview-subject font-weight-normal mb-1">Launch Admin</h6>
+                                <p class="text-gray ellipsis mb-0"> New admin wow! </p>
+                            </div>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <h6 class="p-3 mb-0 text-center">See all notifications</h6>
+                    </div>
+                </li>
+
+                <li class="nav-item nav-logout d-none d-lg-block">
+                    <a class="nav-link" asp-controller="Account" asp-action="Logout">
+                        <i class="mdi mdi-power"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item nav-settings d-none d-lg-block">
+                    <a class="nav-link" href="#">
+                        <i class="mdi mdi-format-line-spacing"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                <span class="mdi mdi-menu"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        @* Menu Main *@
+        <nav class="sidebar sidebar-off canvas" id="sidebar">
+            <ul class="nav">
+                @* Dashboard *@
+                <li class="nav-item">
+                    <a asp-area="Admin" asp-controller="Admin" asp-action="Dashboard" class="nav-link">
+                        <span class="menu-title">Dashboard</span>
+                        <i class="mdi mdi-home menu-icon"></i>
+                    </a>
+                </li>
+
+                @* CRUD Product *@
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#crudMenu" aria-expanded="false" aria-controls="crudMenu">
+                        <span class="menu-title">CRUD Product</span>
+                        <i class="mdi mdi-database menu-icon"></i>
+                    </a>
+                    <div class="collapse" id="crudMenu">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Admin" asp-action="ManageProducts" class="nav-link">Manage Products</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Loai" asp-action="Index" class="nav-link">Category Products</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                @* Chart *@
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+                        <span class="menu-title">Charts</span>
+                        <i class="mdi mdi-chart-bar menu-icon"></i>
+                    </a>
+                    <div class="collapse" id="charts">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/dashboard/pages/charts/chartjs.html">Chart Js</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                @* User Profile *@
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                        <span class="menu-title">User  Pages</span>
+                        <i class="menu-arrow"></i>
+                        <i class="mdi mdi-lock menu-icon"></i>
+                    </a>
+                    <div class="collapse" id="auth">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/dashboard/pages/samples/blank-page.html"> Blank Page </a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Admin" asp-action="Login" class="nav-link"> Login </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-danger text-white">
+                            <h2 class="h4 mb-0">Delete Product</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="alert alert-danger text-center" role="alert">
+                                <h4 class="mb-4">Are you sure you want to delete this product?</h4>
+                                <h5>@Model.TenHh</h5>
+                                <dl class="row">
+                                    <dt class="col-sm-3 text-end">Name</dt>
+                                    <dd class="col-sm-9 text-start">@Model.TenHh</dd>
+
+                                    <dt class="col-sm-3 text-end">Price</dt>
+                                    <dd class="col-sm-9 text-start">
+                                        @if (Model.DonGia.HasValue)
+                                        {
+                                            @Model.DonGia.Value.ToString("C")
+                                        }
+                                        else
+                                        {
+                                            <span>Not available</span>
+                                        }
+                                    </dd>
+
+                                    <dt class="col-sm-3 text-end">Category</dt>
+                                    <dd class="col-sm-9 text-start">@Model.MaLoai</dd>
+
+                                    <dt class="col-sm-3 text-end">Description</dt>
+                                    <dd class="col-sm-9 text-start">@Model.MoTa</dd>
+
+                                    <dt class="col-sm-3 text-end">Image</dt>
+                                    <dd class="col-sm-9 text-start">
+                                        <img src="~/Hinh/HangHoa/@Model.Hinh" alt="Product Image" class="img-fluid img-thumbnail" />
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <form asp-action="Delete" method="post">
+                                    <input type="hidden" asp-for="MaHh" />
+                                    <button type="submit" class="btn btn-danger me-2">Delete</button>
+                                    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

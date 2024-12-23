@@ -38,93 +38,100 @@
 		</div>
 		<!-- Spinner End -->
 
-		<!-- Navbar start -->
-		<div class="container-fluid fixed-top">
-			<div class="container topbar bg-primary d-none d-lg-block">
-				<div class="d-flex justify-content-between">
-					<div class="top-info ps-2">
-						<small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">123 Street, New York</a></small>
-						<small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
-					</div>
-					<div class="top-link pe-2">
-						<a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
-						<a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
-						<a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
-					</div>
-				</div>
-			</div>
+        <div class="container-fluid fixed-top">
+            <div class="container topbar bg-primary d-none d-lg-block">
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3">
+                            <i class="fas fa-map-marker-alt me-2 text-secondary"></i>
+                            <a href="#" class="text-white">123 Street, New York</a>
+                        </small>
+                        <small class="me-3">
+                            <i class="fas fa-envelope me-2 text-secondary"></i>
+                            <a href="#" class="text-white">Email@Example.com</a>
+                        </small>
+                    </div>
+                    <div class="top-link pe-2">
+                        <a href="#" class="text-white">
+                            <small class="text-white mx-2">Privacy Policy</small>/
+                        </a>
+                        <a href="#" class="text-white">
+                            <small class="text-white mx-2">Terms of Use</small>/
+                        </a>
+                        <a href="#" class="text-white">
+                            <small class="text-white ms-2">Sales and Refunds</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-			<div class="container px-0 ">
-				<nav class="navbar navbar-light bg-white navbar-expand-xl">
-					<a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">Fruitables</h1></a>
-					<button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-						<span class="fa fa-bars text-primary"></span>
-					</button>
-					<div class="collapse navbar-collapse bg-white" id="navbarCollapse">
-						<div class="navbar-nav mx-auto">
-							<a asp-controller="Home" asp-action="Index" class="nav-item nav-link active">Home</a>
-							<a asp-controller="HangHoa" asp-action="Index" class="nav-item nav-link">Shop</a>
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-white navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-primary display-6">Fruitables</h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a asp-controller="Home" asp-action="Index" class="nav-item nav-link active">Home</a>
+                            <a asp-controller="HangHoa" asp-action="Index" class="nav-item nav-link">Shop</a>
+                            <a asp-controller="HangHoa" asp-action="Detail" class="nav-item nav-link">Shop Detail</a>
 
-							<div class="nav-item dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-								<div class="dropdown-menu m-0 bg-secondary rounded-0">
-									<a asp-controller="Cart" asp-action="Index" class="dropdown-item">Cart</a>
-									<a href="chackout.html" class="dropdown-item">Chackout</a>
-									<a asp-controller="Cart" asp-action="Checkout" class="dropdown-item">Testimonial</a>
-									<a href="404.html" class="dropdown-item">404 Page</a>
-								</div>
-							</div>
-							<a href="contact.html" class="nav-item nav-link">Contact</a>
-						</div>
-						<div class="d-flex m-3 me-0">
-							<button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                    <a asp-controller="Cart" asp-action="Index" class="dropdown-item">Cart</a>
+                                    <a asp-controller="Cart" asp-action="Checkout" class="dropdown-item">Check Out</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex m-3 me-0">
+                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal">
+                                <i class="fas fa-search text-primary"></i>
+                            </button>
 
-							@await Component.InvokeAsync("Cart")
+                            @await Component.InvokeAsync("Cart")
 
-							<!-- Dropdown Menu -->
-							<div class="dropdown my-auto">
-								<a class="dropdown-toggle" href="#" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-									@if (User.Identity.IsAuthenticated)
-									{
-										var userImage = User.FindFirst("UserImage")?.Value ?? "/Hinh/default-avatar.png";
-										var userName = User.FindFirst(ClaimTypes.Name)?.Value ?? "User";
-										<img src="@userImage" alt="@userName" class="rounded-circle" style="width: 40px; height: 40px;" title="@userName" />
-									}
-									else
-									{
-										<i class="fas fa-user fa-2x"></i>
-									}
-								</a>
-								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-									@if (User.Identity.IsAuthenticated)
-									{
-										var userName = User.FindFirst(ClaimTypes.Name)?.Value;
-										<li class="dropdown-header">Hello, @userName!</li>
-										<li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Profile</a></li>
-										<li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
-									}
-									else
-									{
-										<li><a class="dropdown-item" asp-controller="Account" asp-action="Login">Login</a></li>
-										<li><a class="dropdown-item" asp-controller="Account" asp-action="Register">Register</a></li>
-									}
-								</ul>
-							</div>
+                            <!-- Dropdown Menu -->
+                            <div class="dropdown my-auto">
+                                <a class="dropdown-toggle" href="#" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        var userImage = User.FindFirst("UserImage")?.Value ?? "/Hinh/default-avatar.png";
+                                        var userName = User.FindFirst(ClaimTypes.Name)?.Value ?? "User";
+                                        <img src="@userImage" alt="@userName" class="rounded-circle" style="width: 40px; height: 40px;" title="@userName" />
+                                    }
+                                    else
+                                    {
+                                        <i class="fas fa-user fa-2x"></i>
+                                    }
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        var userName = User.FindFirst(ClaimTypes.Name)?.Value;
+                                        <li class="dropdown-header">Hello, @userName!</li>
+                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Profile</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Login">Login</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Register">Register</a></li>
+                                    }
+                                </ul>
+                            </div>
 
-							
-							<!-- Font Awesome -->
-							<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-						
-						</div>
-					</div>
-				</nav>
-			</div>
-		</div>
-
-		<!-- Navbar End -->
-
-
+                            <!-- Font Awesome -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
 
 		<!-- Modal Search Start -->
 		<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -196,5 +203,19 @@
 			});
 		});
 	</script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.fixed-top');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) { // Adjust scroll distance as needed
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
+
 </body>
 </html>

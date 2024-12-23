@@ -7,12 +7,18 @@
 <div class="container-fluid page-header py-5">
 	<h1 class="text-center text-white display-6">Shop Detail</h1>
 	<ol class="breadcrumb justify-content-center mb-0">
-		<li class="breadcrumb-item"><a href="#">Home</a></li>
-		<li class="breadcrumb-item"><a href="#">Hàng hóa</a></li>
+		<li class="breadcrumb-item">
+			<a asp-controller="Home" asp-action="Index">Home</a>
+		</li>
+
+		<li class="breadcrumb-item">
+			<a asp-controller="HangHoa" asp-action="Index">Shop</a>
+		</li>
 		<li class="breadcrumb-item active text-white">@Model.TenHH</li>
 	</ol>
 </div>
 <!-- Single Page Header End -->
+
 <!-- Single Product Start -->
 <div class="container-fluid py-5 mt-5">
 	<div class="container py-5">
@@ -30,6 +36,8 @@
 						<h4 class="fw-bold mb-3">@Model.TenHH</h4>
 						<p class="mb-3">Category: @Model.TenLoai</p>
 						<h5 class="fw-bold mb-3">$ @Model.DonGia</h5>
+
+						@* Đánh giá bằng sao  *@
 						<div class="d-flex mb-4">
 							<i class="fa fa-star text-secondary"></i>
 							<i class="fa fa-star text-secondary"></i>
@@ -38,6 +46,7 @@
 							<i class="fa fa-star"></i>
 						</div>
 						<p class="mb-4">@Model.MoTaNgan</p>
+
 						<form asp-action="AddToCart" asp-controller="Cart" asp-route-id="@Model.MaHh">
 							<div class="input-group quantity mb-5" style="width: 100px;">
 								<div class="input-group-btn">
@@ -52,8 +61,9 @@
 									</button>
 								</div>
 							</div>
-							<button class="btn border border-secondary rounded-pill px-4 py-2 mb-4 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Mua hàng</button>
+							<button class="btn border border-secondary rounded-pill px-4 py-2 mb-4 text-primary add-to-cart"><i class="fa fa-shopping-bag me-2 text-primary"></i> Mua hàng</button>
 						</form>
+
 					</div>
 					<div class="col-lg-12">
 						<nav>
@@ -128,6 +138,7 @@
 							</div>
 						</div>
 					</div>
+
 					<form action="#">
 						<h4 class="mb-5 fw-bold">Leave a Reply</h4>
 						<div class="row g-4">
@@ -171,6 +182,8 @@
 						@await Html.PartialAsync("_TimKiemPanel")
 						@await Component.InvokeAsync("MenuLoai")
 					</div>
+
+					@* Fetured Product *@
 					<div class="col-lg-12">
 						<h4 class="mb-4">Featured products</h4>
 						<div class="d-flex align-items-center justify-content-start">
@@ -422,3 +435,65 @@
 	</div>
 </div>
 <!-- Single Product End -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+	$(document).ready(function() {
+		$(".add-to-cart").click(function(e) {
+			e.preventDefault();
+			var form = $(this).closest("form");
+			var id = form.find("input[name='quantity']").val();
+			$.ajax({
+				url: form.attr('action'),
+				method: 'POST',
+				data: form.serialize(),
+				success: function(response) {
+					if (response.success) {
+						$("#cart-quantity").text(response.cartItemCount);
+						Swal.fire({
+							icon: 'success',
+							title: 'Item added to cart',
+							showConfirmButton: false,
+							timer: 2000,
+							position: 'bottom-end',
+							toast: true,
+							customClass: {
+								popup: 'animate__animated animate__fadeInUp'
+							}
+						});
+					} else {
+						Swal.fire({
+							icon: 'error',
+							title: 'Error',
+							text: response.message,
+							showConfirmButton: false,
+							timer: 2000,
+							position: 'bottom-end',
+							toast: true,
+							customClass: {
+								popup: 'animate__animated animate__fadeInUp'
+							}
+						});
+					}
+				},
+				error: function() {
+					Swal.fire({
+						icon: 'error',
+						title: 'Error',
+						text: "Something went wrong, please try again.",
+						showConfirmButton: false,
+						timer: 2000,
+						position: 'bottom-end',
+						toast: true,
+						customClass: {
+							popup: 'animate__animated animate__fadeInUp'
+						}
+					});
+				}
+			});
+		});
+	});
+</script>
+

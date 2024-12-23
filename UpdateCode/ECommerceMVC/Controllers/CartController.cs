@@ -38,6 +38,7 @@ namespace ECommerceMVC.Controllers
             return View(viewModel);
         }
 
+        [HttpPost]
         public IActionResult AddToCart(int id, int quantity = 1)
         {
             var customerId = HttpContext.User.Claims.SingleOrDefault(p => p.Type == MySetting.CLAIM_CUSTOMERID)?.Value;
@@ -48,8 +49,7 @@ namespace ECommerceMVC.Controllers
                 var hangHoa = db.HangHoas.SingleOrDefault(p => p.MaHh == id);
                 if (hangHoa == null)
                 {
-                    TempData["Message"] = $"Không tìm thấy hàng hóa có mã {id}";
-                    return Redirect("/404");
+                    return Json(new { success = false, message = $"Không tìm thấy hàng hóa có mã {id}" });
                 }
                 item = new CartItemDb
                 {
@@ -70,7 +70,10 @@ namespace ECommerceMVC.Controllers
 
             db.SaveChanges();
 
-            return RedirectToAction("Index");
+            // Tính tổng số lượng sản phẩm trong giỏ hàng
+            var cartItemCount = db.CartItems.Where(c => c.MaKh == customerId).Sum(c => c.SoLuong);
+
+            return Json(new { success = true, message = "Đã thêm vào giỏ hàng", cartItemCount });
         }
 
         public IActionResult RemoveCart(int id)
@@ -115,10 +118,9 @@ namespace ECommerceMVC.Controllers
                 TenHH = item.TenHH,
                 DonGia = (item.DonGia),
                 SoLuong = item.SoLuong
-                // Không cần gán ThanhTien nếu bạn sử dụng cách 2
             }).ToList();
-            ViewBag.PaypalClientId = _paypalClient.ClientId;
 
+            ViewBag.PaypalClientId = _paypalClient.ClientId;
 
             return View(cartItems); // Truyền danh sách cartItems vào view
         }
@@ -143,7 +145,7 @@ namespace ECommerceMVC.Controllers
                     NgayDat = DateTime.Now,
                     CachThanhToan = model.CachThanhToan,
                     CachVanChuyen = model.CachVanChuyen,
-                    MaTrangThai = 0,
+                    MaTrangThai = 0, // Mới đặt hàng
                     GhiChu = model.GhiChu,
                     ChiTietHds = new List<ChiTietHd>()
                 };
@@ -170,8 +172,17 @@ namespace ECommerceMVC.Controllers
                     db.AddRange(hoadon.ChiTietHds);
                     db.SaveChanges();
 
+                    // Xóa các sản phẩm trong giỏ hàng
                     db.CartItems.RemoveRange(cartItems);
                     db.SaveChanges();
+
+                    // Cập nhật trạng thái đơn hàng thành 1 (đã thanh toán) nếu là Cash on Delivery
+                    if (model.CachThanhToan == "CashOnDelivery")
+                    {
+                        hoadon.MaTrangThai = 1; // Đã thanh toán
+                        db.Update(hoadon);
+                        db.SaveChanges();
+                    }
 
                     db.Database.CommitTransaction();
                     return View("Success", hoadon);
@@ -188,13 +199,26 @@ namespace ECommerceMVC.Controllers
         }
 
         [Authorize]
-        public IActionResult PaymentSuccess()
+        public async Task<IActionResult> PaymentSuccess()
         {
-            var hoadon = db.HoaDons.OrderByDescending(h => h.NgayDat).FirstOrDefault();
+            // Lấy hóa đơn mới nhất cho khách hàng hiện tại
+            var customerId = HttpContext.User.Claims.SingleOrDefault(p => p.Type == MySetting.CLAIM_CUSTOMERID)?.Value;
+            var hoadon = db.HoaDons
+                .Where(h => h.MaKh == customerId)
+                .OrderByDescending(h => h.NgayDat)
+                .FirstOrDefault();
+
             if (hoadon == null)
             {
                 return RedirectToAction("Index");
             }
+
+            // Cập nhật trạng thái đơn hàng
+            hoadon.MaTrangThai = 1; // Đã thanh toán
+            db.Update(hoadon);
+            await db.SaveChangesAsync();
+
+            // Trả về view Success với hóa đơn đã được cập nhật
             return View("Success", hoadon);
         }
 

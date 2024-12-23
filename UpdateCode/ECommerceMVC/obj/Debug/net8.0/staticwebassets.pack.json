@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\ECommerceMVC.nqv99l6tvr.bundle.scp.css"
     },
     {
-      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\404.html",
-      "PackagePath": "staticwebassets\\404.html"
-    },
-    {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\1009.gif",
       "PackagePath": "staticwebassets\\Hinh\\HangHoa\\1009.gif"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\1313652.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\1313652.jpg"
     },
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\21meTyhQebL._SL500_AA300_.jpg",
@@ -333,6 +333,10 @@
       "PackagePath": "staticwebassets\\Hinh\\HangHoa\\To.gif"
     },
     {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\HangHoa\\student 1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\HangHoa\\student 1.jpg"
+    },
+    {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\KhachHang\\__couple_1_638698825065443740.jpg",
       "PackagePath": "staticwebassets\\Hinh\\KhachHang\\__couple_1_638698825065443740.jpg"
     },
@@ -343,6 +347,10 @@
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai11.jpeg",
       "PackagePath": "staticwebassets\\Hinh\\Loai11.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\1313652.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\1313652.jpg"
     },
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Accept.png",
@@ -415,6 +423,10 @@
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\Unlock.png",
       "PackagePath": "staticwebassets\\Hinh\\Loai\\Unlock.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\__couple_1.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\Loai\\__couple_1.jpg"
     },
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\Hinh\\Loai\\agenda_1.jpg",
@@ -1197,14 +1209,6 @@
       "PackagePath": "staticwebassets\\Hinh\\icons\\vit.gif"
     },
     {
-      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\cart.html",
-      "PackagePath": "staticwebassets\\cart.html"
-    },
-    {
-      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\chackout.html",
-      "PackagePath": "staticwebassets\\chackout.html"
-    },
-    {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\contact.html",
       "PackagePath": "staticwebassets\\contact.html"
     },
@@ -1217,8 +1221,1648 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\brand_icons\\bitmap.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\brand_icons\\bitmap.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\brand_icons\\oval-copy.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\brand_icons\\oval-copy.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\brand_icons\\oval.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\brand_icons\\oval.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_10.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_10.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_11.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_11.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_12.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_12.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_6.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_7.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_7.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_8.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_8.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\carousel\\banner_9.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\carousel\\banner_9.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\chat\\profile_image.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\chat\\profile_image.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\chat\\thumb_image1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\chat\\thumb_image1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\chat\\thumb_image2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\chat\\thumb_image2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\chat\\thumb_image3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\chat\\thumb_image3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\chat\\thumb_image4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\chat\\thumb_image4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\chat\\thumb_image5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\chat\\thumb_image5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\chat\\thumb_image6.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\chat\\thumb_image6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\chat\\thumb_image7.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\chat\\thumb_image7.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\chat\\thumb_image8.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\chat\\thumb_image8.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\circle.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\circle.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\circle.svg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\circle.svg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\ecommerce\\Shoe_1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\ecommerce\\Shoe_1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\ecommerce\\Shoe_2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\ecommerce\\Shoe_2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\ecommerce\\Shoe_3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\ecommerce\\Shoe_3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\ecommerce\\Shoe_4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\ecommerce\\Shoe_4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\ecommerce\\img_2.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\ecommerce\\img_2.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\erp\\img_1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\erp\\img_1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\food_1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\food_1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\food_2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\food_2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\food_3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\food_3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\food_4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\food_4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\food_5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\food_5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\food_6.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\food_6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\items_1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\items_1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\items_2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\items_2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\items_3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\items_3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\items_4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\items_4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\order_2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\order_2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\order_3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\order_3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\order_4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\order_4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\food\\title.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\food\\title.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\img_1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\img_1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\img_2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\img_2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\img_3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\img_3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\dashboard\\img_4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\dashboard\\img_4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\boxed-layout.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\boxed-layout.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\calendar.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\calendar.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\compact-menu.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\compact-menu.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\dark-sidebar.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\dark-sidebar.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\email.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\email.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\fixed-menu.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\fixed-menu.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\horizontal-menu-dark.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\horizontal-menu-dark.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\horizontal-menu-light.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\horizontal-menu-light.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\icon-menu.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\icon-menu.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\login.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\login.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\portfolio.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\portfolio.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\pricing.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\pricing.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\toggle-menu.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\toggle-menu.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\toggle-overlay-menu.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\toggle-overlay-menu.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\vertical-dark.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\vertical-dark.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\demo\\vertical-default.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\demo\\vertical-default.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\email\\fb.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\email\\fb.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\email\\mail-image.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\email\\mail-image.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\email\\medium.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\email\\medium.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\email\\slack.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\email\\slack.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\email\\twitter.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\email\\twitter.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\email\\youtube.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\email\\youtube.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces-clipart\\pic-1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces-clipart\\pic-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces-clipart\\pic-2.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces-clipart\\pic-2.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces-clipart\\pic-3.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces-clipart\\pic-3.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces-clipart\\pic-4.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces-clipart\\pic-4.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\128\\001-interface-1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\128\\001-interface-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\128\\002-tool.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\128\\002-tool.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\128\\003-interface.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\128\\003-interface.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\128\\004-folder-1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\128\\004-folder-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\128\\005-database.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\128\\005-database.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\128\\006-record.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\128\\006-record.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\128\\007-folder.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\128\\007-folder.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\128\\008-archive.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\128\\008-archive.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\256\\001-interface-1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\256\\001-interface-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\256\\002-tool.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\256\\002-tool.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\256\\003-interface.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\256\\003-interface.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\256\\004-folder-1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\256\\004-folder-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\256\\005-database.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\256\\005-database.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\256\\006-record.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\256\\006-record.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\256\\007-folder.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\256\\007-folder.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\256\\008-archive.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\256\\008-archive.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\512\\001-interface-1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\512\\001-interface-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\512\\002-tool.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\512\\002-tool.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\512\\003-interface.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\512\\003-interface.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\512\\004-folder-1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\512\\004-folder-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\512\\005-database.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\512\\005-database.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\512\\006-record.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\512\\006-record.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\512\\007-folder.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\512\\007-folder.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\512\\008-archive.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\512\\008-archive.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\64\\001-interface-1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\64\\001-interface-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\64\\002-tool.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\64\\002-tool.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\64\\003-interface.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\64\\003-interface.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\64\\004-folder-1.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\64\\004-folder-1.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\64\\005-database.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\64\\005-database.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\64\\006-record.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\64\\006-record.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\64\\007-folder.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\64\\007-folder.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\64\\008-archive.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\64\\008-archive.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\Internet-Explorer.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\Internet-Explorer.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\Safari.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\Safari.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\chrome.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\chrome.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\corrupted-file.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\corrupted-file.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\css.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\css.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\database.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\database.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\doc-file.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\doc-file.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\document.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\document.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\download-file.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\download-file.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\folder-open.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\folder-open.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\folder.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\folder.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\git-file.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\git-file.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\html.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\html.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\js-file.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\js-file.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\pdf.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\pdf.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\server-2.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\server-2.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\server.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\server.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\zip-file.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\zip-file.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\extension\\zip.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\extension\\zip.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\firefox.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\firefox.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\flag.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\flag.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\icon-3.svg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\icon-3.svg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\icon-google.svg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\icon-google.svg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\opera.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\opera.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\file-icons\\vivaldi.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\file-icons\\vivaldi.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\lightbox\\play-button.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\lightbox\\play-button.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\lightbox\\thumb-v-v-1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\lightbox\\thumb-v-v-1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\lightbox\\thumb-v-v-2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\lightbox\\thumb-v-v-2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\lightbox\\thumb-v-y-1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\lightbox\\thumb-v-y-1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\lightbox\\thumb-v-y-2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\lightbox\\thumb-v-y-2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\Homepod.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\Homepod.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\apple-watch.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\apple-watch.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\apple-watch_2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\apple-watch_2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\baf.jpeg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\baf.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\ball.jpeg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\ball.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\beats-headphone.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\beats-headphone.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\headphone.jpeg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\headphone.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\homepod_small.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\homepod_small.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\imac.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\imac.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\iphone-x.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\iphone-x.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\iphone.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\iphone.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\macbook-pro.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\macbook-pro.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\magic-mouse.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\magic-mouse.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\shoe.jpeg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\shoe.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\shoe_2.jpeg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\shoe_2.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\shoe_3.jpeg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\shoe_3.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images\\watch.jpeg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images\\watch.jpeg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image10.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image10.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image11.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image11.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image12.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image12.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image6.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image7.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image7.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image8.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image8.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\product_images_2\\thumb_image9.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\product_images_2\\thumb_image9.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\10.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\10.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\11.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\11.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\12.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\12.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\13.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\13.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\14.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\14.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\15.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\15.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\6.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\7.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\7.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\8.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\8.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\1280x768\\9.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\1280x768\\9.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\1.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\10.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\10.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\11.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\11.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\12.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\12.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\13.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\13.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\14.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\14.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\15.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\15.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\2.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\3.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\4.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\5.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\6.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\6.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\7.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\7.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\8.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\8.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\300x300\\9.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\300x300\\9.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\angular-4.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\angular-4.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\bootstrap-stack.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\bootstrap-stack.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\charts.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\charts.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\dashboard.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\dashboard.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\e-commerce.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\e-commerce.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\editors.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\editors.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\email.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\email.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\forms.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\forms.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\html5.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\html5.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\modal.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\modal.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\popup.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\popup.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\weather.svg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\weather.svg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\samples\\widgets.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\samples\\widgets.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\screenshots\\horizontal-dark.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\screenshots\\horizontal-dark.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\screenshots\\horizontal-light.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\screenshots\\horizontal-light.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\screenshots\\vertical-dark.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\screenshots\\vertical-dark.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\screenshots\\vertical-light.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\screenshots\\vertical-light.jpg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\sprites\\blue.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\sprites\\blue.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\sprites\\dark.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\sprites\\dark.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\sprites\\flag.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\sprites\\flag.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\sprites\\green.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\sprites\\green.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\sprites\\jsgrid-icons-color.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\sprites\\jsgrid-icons-color.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\sprites\\jsgrid-icons.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\sprites\\jsgrid-icons.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\sprites\\red.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\sprites\\red.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\images\\sprites\\yellow.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\images\\sprites\\yellow.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\chart.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\codemirror.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\codemirror.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\dashboard-dark.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\dashboard-dark.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\file-upload.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\jquery-file-upload.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\jquery-file-upload.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\misc.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\misc.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\select2.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\select2.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\settings.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\settings.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\todolist.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\js\\typeahead.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\js\\typeahead.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\_variables.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\_variables.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_codemirror.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_codemirror.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_datepicker.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_datepicker.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_google-charts.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_google-charts.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_jquery-file-upload.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_jquery-file-upload.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_jvectormap.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_jvectormap.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_owl-carousel.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_owl-carousel.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_progressbar-js.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_progressbar-js.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_pws-tabs.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_pws-tabs.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_select2.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_select2.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_typeahead.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\light\\components\\plugin-overrides\\_typeahead.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_dashboard.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_dashboard.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_demo.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_demo.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_fonts.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_fonts.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_footer.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_footer.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_functions.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_functions.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_misc.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_misc.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_reset.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_reset.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_typography.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_typography.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_utilities.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\_widget-grid.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\_widget-grid.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_badges.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_cards.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_forms.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_google-maps.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_google-maps.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_icons.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_lists.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_modals.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_modals.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_preview.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_preview.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_tables.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\components\\_todo-list.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\components\\_todo-list.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\landing-screens\\_project-list.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\landing-screens\\_project-list.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\landing-screens\\_tickets.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\landing-screens\\_tickets.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\landing-screens\\_user-listing.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\landing-screens\\_user-listing.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_background.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_background.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_no-ui-slider.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_no-ui-slider.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_popovers.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_popovers.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_text.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_text.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\shared\\mixins\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\shared\\mixins\\_tooltips.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\scss\\vertical\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\scss\\vertical\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\bootstrap-datepicker\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\bootstrap-datepicker\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\bootstrap-datepicker\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\bootstrap-datepicker\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\chart.js\\chart.umd.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\chart.js\\chart.umd.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\codemirror\\ambiance.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\codemirror\\ambiance.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\codemirror\\shell.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\codemirror\\shell.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\css\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\css\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\jquery-file-upload\\jquery.uploadfile.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\jquery-file-upload\\jquery.uploadfile.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\owl-carousel-2\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\owl-carousel-2\\owl.carousel.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\owl-carousel-2\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\owl-carousel-2\\owl.carousel.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\owl-carousel-2\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\owl-carousel-2\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\owl-carousel-2\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\owl-carousel-2\\owl.video.play.png"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\pwstabs\\jquery.pwstabs.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\pwstabs\\jquery.pwstabs.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\pwstabs\\jquery.pwstabs.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\pwstabs\\jquery.pwstabs.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\select2-bootstrap-theme\\select2-bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\select2\\select2.min.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\select2\\select2.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\ti-icons\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\ti-icons\\css\\themify-icons.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\ti-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\ti-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\ti-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\ti-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\ti-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\ti-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\ti-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\ti-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\assets\\vendors\\typeahead.js\\typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\assets\\vendors\\typeahead.js\\typeahead.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\dist\\index.html",
+      "PackagePath": "staticwebassets\\dashboard\\dist\\index.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\docs\\documentation.html",
+      "PackagePath": "staticwebassets\\dashboard\\docs\\documentation.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\docs\\script.js",
+      "PackagePath": "staticwebassets\\dashboard\\docs\\script.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\docs\\style.css",
+      "PackagePath": "staticwebassets\\dashboard\\docs\\style.css"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\gulp-tasks\\build.js",
+      "PackagePath": "staticwebassets\\dashboard\\gulp-tasks\\build.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\gulp-tasks\\inject.js",
+      "PackagePath": "staticwebassets\\dashboard\\gulp-tasks\\inject.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\gulp-tasks\\serve.js",
+      "PackagePath": "staticwebassets\\dashboard\\gulp-tasks\\serve.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\gulp-tasks\\vendors.js",
+      "PackagePath": "staticwebassets\\dashboard\\gulp-tasks\\vendors.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\gulpfile.js",
+      "PackagePath": "staticwebassets\\dashboard\\gulpfile.js"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\index.html",
+      "PackagePath": "staticwebassets\\dashboard\\index.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\icons\\font-awesome.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\icons\\font-awesome.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\samples\\blank-page.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\samples\\blank-page.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\samples\\error-404.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\samples\\error-404.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\samples\\error-500.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\samples\\error-500.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\ui-features\\dropdowns.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\ui-features\\dropdowns.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\dashboard\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\dashboard\\partials\\_footer.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\dashboard\\partials\\_navbar.html"
+    },
+    {
+      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\dashboard\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\dashboard\\partials\\_sidebar.html"
     },
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\avatar.jpg",
@@ -1343,10 +2987,6 @@
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\img\\vegetable-item-6.jpg",
       "PackagePath": "staticwebassets\\img\\vegetable-item-6.jpg"
-    },
-    {
-      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\js\\main.js",
@@ -1763,14 +3403,6 @@
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
-    },
-    {
-      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\shop-detail.html",
-      "PackagePath": "staticwebassets\\shop-detail.html"
-    },
-    {
-      "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\shop.html",
-      "PackagePath": "staticwebassets\\shop.html"
     },
     {
       "Id": "F:\\Project\\E-commerce\\E-commerce\\ECommerceMVC\\wwwroot\\testimonial.html",

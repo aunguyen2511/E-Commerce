@@ -13,5 +13,6 @@ namespace ECommerceMVC.ViewModels
         [Required(ErrorMessage = "Chưa nhập mật khẩu")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+        public bool RememberMe { get; set; } // Tùy chọn ghi nhớ
     }
 }

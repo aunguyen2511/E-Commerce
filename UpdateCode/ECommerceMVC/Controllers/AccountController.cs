@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 public class AccountController : Controller
 {
@@ -146,11 +147,31 @@ public class AccountController : Controller
 
     #endregion
 
+    #region Profice
     [Authorize]
     public IActionResult Profile()
     {
-        return View();
+        var userId = User.FindFirst("CustomerID")?.Value; // Sử dụng "CustomerID" thay vì ClaimTypes.NameIdentifier
+        var hoaDons = db.HoaDons
+                        .Include(h => h.ChiTietHds)
+                        .Include(h => h.MaTrangThaiNavigation)
+                        .Where(h => h.MaKh == userId)
+                        .ToList();
+
+        if (hoaDons == null || !hoaDons.Any())
+        {
+            // Ghi log để kiểm tra
+            Console.WriteLine("No orders found for user: " + userId);
+        }
+        else
+        {
+            // Ghi log để kiểm tra dữ liệu
+            Console.WriteLine($"Found {hoaDons.Count} orders for user: " + userId);
+        }
+
+        return View(hoaDons);
     }
+    #endregion
 
     [Authorize]
     public async Task<IActionResult> Logout()

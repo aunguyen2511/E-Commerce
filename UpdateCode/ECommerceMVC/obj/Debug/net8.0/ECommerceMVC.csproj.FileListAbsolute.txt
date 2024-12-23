@@ -259,16 +259,24 @@ C:\Users\huynh\OneDrive\Máy tính\ECommerceMVC\ECommerceMVC\obj\Debug\net8.0\EC
 C:\Users\huynh\OneDrive\Máy tính\ECommerceMVC\ECommerceMVC\obj\Debug\net8.0\ref\ECommerceMVC.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\appsettings.Development.json
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\appsettings.json
-F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\ECommerceMVC.staticwebassets.endpoints.json
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\ECommerceMVC.staticwebassets.runtime.json
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\ECommerceMVC.staticwebassets.endpoints.json
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\ECommerceMVC.exe
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\ECommerceMVC.deps.json
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\ECommerceMVC.runtimeconfig.json
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\ECommerceMVC.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\ECommerceMVC.pdb
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\AutoMapper.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Azure.Core.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Azure.Identity.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Humanizer.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Web.Mvc.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Web.Razor.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Web.Helpers.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Web.WebPages.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -293,6 +301,8 @@ F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.EntityF
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -311,6 +321,7 @@ F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.VisualS
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Mono.TextTemplating.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Newtonsoft.Json.dll
@@ -338,6 +349,10 @@ F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Runtime.Ca
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Security.Permissions.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\X.PagedList.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\X.PagedList.Mvc.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\X.PagedList.Web.Common.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\af\Humanizer.resources.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\ar\Humanizer.resources.dll
 F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -493,6 +508,7 @@ F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.Gene
 F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.AssemblyInfoInputs.cache
 F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.AssemblyInfo.cs
 F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.csproj.CoreCompileInputs.cache
+F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.MvcApplicationPartsAssemblyInfo.cs
 F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.MvcApplicationPartsAssemblyInfo.cache
 F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.RazorAssemblyInfo.cache
 F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.RazorAssemblyInfo.cs
@@ -515,7 +531,3 @@ F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\refint\ECommerceM
 F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.pdb
 F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ECommerceMVC.genruntimeconfig.cache
 F:\Project\E-commerce\E-commerce\ECommerceMVC\obj\Debug\net8.0\ref\ECommerceMVC.dll
-F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\AutoMapper.dll
-F:\Project\E-commerce\E-commerce\ECommerceMVC\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

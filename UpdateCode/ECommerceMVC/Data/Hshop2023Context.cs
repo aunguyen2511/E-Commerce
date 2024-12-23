@@ -45,6 +45,8 @@ public partial class Hshop2023Context : DbContext
 
     public virtual DbSet<PhongBan> PhongBans { get; set; }
 
+    public virtual DbSet<Role> Roles { get; set; }
+
     public virtual DbSet<TrangThai> TrangThais { get; set; }
 
     public virtual DbSet<TrangWeb> TrangWebs { get; set; }
@@ -396,6 +398,13 @@ public partial class Hshop2023Context : DbContext
             entity.Property(e => e.TenPb)
                 .HasMaxLength(50)
                 .HasColumnName("TenPB");
+        });
+
+        modelBuilder.Entity<Role>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Roles__3214EC07EA08C942");
+
+            entity.Property(e => e.Name).HasMaxLength(100);
         });
 
         modelBuilder.Entity<TrangThai>(entity =>

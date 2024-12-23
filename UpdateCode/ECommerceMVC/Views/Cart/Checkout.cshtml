@@ -80,35 +80,95 @@
                 </div>
             </div>
 
-            <h4 class="mb-3">Phương thức vận chuyển</h4>
-            <select name="CachVanChuyen" class="form-select" required>
-                <option value="">Chọn phương thức vận chuyển</option>
-                <option value="Free">Free Shipping</option>
-                <option value="GHN">Giao Hang Nhanh</option>
-                <option value="Grab">Grab</option>
-                <option value="Viettel">Viettel Post</option>
-            </select>
-
-            <h4 class="mb-3">Phương thức thanh toán</h4>
-            <div class="form-check">
-                <input type="radio" name="CachThanhToan" value="Credit Card" class="form-check-input" id="CreditCard" required>
-                <label class="form-check-label" for="CreditCard">Credit Card</label>
-            </div>
-            <div class="form-check">
-                <input type="radio" name="CachThanhToan" value="PayPal" class="form-check-input" id="PayPal" required>
-                <label class="form-check-label" for="PayPal">PayPal</label>
-            </div>
-            <div class="form-check">
-                <input type="radio" name="CachThanhToan" value="CashOnDelivery" class="form-check-input" id="CashOnDelivery" required>
-                <label class="form-check-label" for="CashOnDelivery">Cash on Delivery</label>
+            <div class="form-item delivery-info">
+                <label class="form-label my-3">Select Shipping Method<sup>*</sup></label>
+                <select name="CachVanChuyen" class="form-select" required>
+                    <option value="">Choose a shipping method</option>
+                    <option value="Free">Free Shipping</option>
+                    <option value="GHN">Giao Hàng Nhanh</option>
+                    <option value="Grab">Grab</option>
+                    <option value="Viettel">Viettel Post</option>
+                </select>
             </div>
 
-            <div id="paypal-button-container" class="form-item mt-3" style="max-width:1000px;"></div>
+            <div class="form-item delivery-info">
+                <label class="form-label my-3">Select Payment Method<sup>*</sup></label>
 
-            <button type="submit" class="btn btn-primary mt-4">Place Order</button>
+                <div class="form-check">
+                    <input type="radio" name="CachThanhToan" value="Credit Card" class="form-check-input" id="CreditCard" required>
+                    <label class="form-check-label" for="CreditCard">Credit Card</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" name="CachThanhToan" value="PayPal" class="form-check-input" id="PayPal" required>
+                    <label class="form-check-label" for="PayPal">PayPal</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" name="CachThanhToan" value="CashOnDelivery" class="form-check-input" id="CashOnDelivery" required>
+                    <label class="form-check-label" for="CashOnDelivery">Cash on Delivery</label>
+                </div>
+            </div>
+
+            <div class="button-container d-flex align-items-center mt-4">
+                <button type="submit" class="btn btn-primary place-order ms-4" style="display: none;">Place Order</button>
+                <div id="paypal-button-container" class="form-item paypal-button" style="display: none;"></div>
+            </div>
         </form>
     </div>
 </div>
+
+
+
+
+<style>
+    .button-container {
+        display: flex;
+        align-items: center; /* Căn giữa theo chiều dọc */
+    }
+
+    .paypal-button {
+        padding: 10px; /* Thêm khoảng cách bên trong */
+    
+        border-radius: 5px; /* Bo góc */
+      
+        color: white; /* Màu chữ */
+        font-size: 16px; /* Kích thước chữ */
+        display: inline-flex; /* Để căn giữa nội dung */
+        align-items: center; /* Căn giữa theo chiều dọc */
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        cursor: pointer; /* Con trỏ chuột khi di chuột qua */
+    }
+
+    .place-order {
+        border-radius: 20px; /* Tạo hình dạng "pill" */
+        width: 150px; /* Chiều rộng của nút */
+        height: 40px; /* Chiều cao của nút */
+        display: flex; /* Để căn giữa nội dung */
+        align-items: center; /* Căn giữa theo chiều dọc */
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        font-size: 14px; /* Kích thước chữ */
+        margin-left: 20px; /* Khoảng cách giữa nút PayPal và nút Place Order */
+        background-color: #007bff; /* Màu nền (có thể thay đổi) */
+        color: white; /* Màu chữ */
+        border: none; /* Bỏ viền nếu cần */
+        cursor: pointer; /* Con trỏ chuột khi di chuột qua */
+    }
+
+    .delivery-info {
+        border-radius: 5px; /* Bo góc */
+        padding: 15px; /* Khoảng cách bên trong */   
+    }
+
+    .form-select {
+        width: 45%; /* Đảm bảo chiều rộng đầy đủ */
+        padding: 10px; /* Thêm khoảng cách bên trong */
+       
+        border-radius: 5px; /* Bo góc */
+        font-size: 16px; /* Kích thước chữ */
+    }
+</style>
+
 
 <!-- Checkout Page End -->
 @section Scripts {
@@ -128,11 +188,13 @@
         });
 
         paypal.Buttons({
-            style: {
-                layout: 'vertical',
-                color: 'silver',
-                tagline: false
-            },
+           style: {
+            layout: 'horizontal', // 'vertical' hoặc 'horizontal'
+            color: 'gold', // Màu sắc
+            shape: 'pill', // 'rect' hoặc 'pill'
+            label: 'paypal', // 'paypal', 'checkout', 'pay', 'buynow'
+            height: 40 // Chiều cao của nút
+        },
             createOrder: (data, actions) => {
                 return fetch("/Cart/create-paypal-order", {
                     method: "post"
@@ -164,4 +226,32 @@
             }
         }).render('#paypal-button-container');
     </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const placeOrderButton = document.querySelector('.place-order');
+            const paypalButtonContainer = document.getElementById('paypal-button-container');
+
+            function togglePaymentButtons() {
+                const selectedPaymentMethod = document.querySelector('input[name="CachThanhToan"]:checked');
+                if (selectedPaymentMethod) {
+                    if (selectedPaymentMethod.value === 'PayPal') {
+                        paypalButtonContainer.style.display = 'block';
+                        placeOrderButton.style.display = 'none';
+                    } else {
+                        paypalButtonContainer.style.display = 'none';
+                        placeOrderButton.style.display = 'block';
+                    }
+                }
+            }
+
+            document.querySelectorAll('input[name="CachThanhToan"]').forEach(function (element) {
+                element.addEventListener('change', togglePaymentButtons);
+            });
+
+            // Kiểm tra xem có phương thức thanh toán nào được chọn khi tải trang
+            togglePaymentButtons();
+        });
+    </script>
+
 }

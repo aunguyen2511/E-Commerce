@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ECommerceMVC.Data.HoaDon>
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1 class="text-center my-5">User Profile</h1>
+<div class="container mb-5">
+    <h2 class="mb-4">Welcome, @Context.User.Identity.Name</h2>
+    <a asp-action="Logout" class="btn btn-danger mb-4">Logout</a>
+
+    <h3 class="mb-3">Order History</h3>
+    @if (Model.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Order ID</th>
+                        <th scope="col">Order Date</th>
+                        <th scope="col">Delivery Date</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Phone</th>
+                        <th scope="col">Payment</th>
+                        <th scope="col">Shipping</th>
+                        <th scope="col">Shipping Fee</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var hoaDon in Model)
+                    {
+                        <tr>
+                            <td>@hoaDon.MaHd</td>
+                            <td>@hoaDon.NgayDat.ToString("dd/MM/yyyy")</td>
+                            <td>@hoaDon.NgayGiao?.ToString("dd/MM/yyyy")</td>
+                            <td>@hoaDon.DiaChi</td>
+                            <td>@hoaDon.DienThoai</td>
+                            <td>@hoaDon.CachThanhToan</td>
+                            <td>@hoaDon.CachVanChuyen</td>
+                            <td>@hoaDon.PhiVanChuyen.ToString("C")</td>
+                            <td>@hoaDon.MaTrangThaiNavigation.TenTrangThai</td>
+                            <td>@hoaDon.GhiChu</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <p>No orders found.</p>
+    }
+</div>
+
+<style>
+    .profile-container {
+        margin-top: 50px;
+    }
+
+    .table-responsive {
+        margin-top: 30px;
+    }
+
+    .thead-dark {
+        background-color: #343a40;
+        color: white;
+    }
+
+    .table-bordered {
+        border: 1px solid #dee2e6;
+    }
+
+        .table-bordered th, .table-bordered td {
+            border: 1px solid #dee2e6;
+        }
+</style>

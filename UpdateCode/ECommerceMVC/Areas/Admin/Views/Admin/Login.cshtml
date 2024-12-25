@@ -1,0 +1,83 @@
+﻿@model ECommerceMVC.ViewModels.LoginVM
+
+@{
+    ViewData["Title"] = "Đăng Nhập Admin";   
+    Layout = "~/Views/Shared/AdminDashboard/_AdminDashboard.cshtml";
+}
+
+<div class="container-fluid page-body-wrapper full-page-wrapper">
+    <div class="content-wrapper d-flex align-items-center auth">
+        <div class="row flex-grow">
+            <div class="col-lg-4 mx-auto">
+                <div class="auth-form-light text-left p-5">
+                    <div class="brand-logo">
+                        <img src="~/dashboard/assets/images/demo.png" alt="logo" class="avatar-logo">
+                    </div>
+                    <h4>Xin chào! Hãy bắt đầu</h4>
+                    <h6 class="font-weight-light">Đăng nhập để tiếp tục.</h6>
+
+                    @if (TempData["Message"] != null)
+                    {
+                        <div class="alert alert-danger">
+                            @TempData["Message"]
+                        </div>
+                    }
+
+                    <form asp-action="Login" asp-route-returnurl="@ViewBag.ReturnUrl" class="pt-3">
+                        <div class="text-danger" asp-validation-summary="All"></div>
+
+                        <!-- Username -->
+                        <div class="form-group">
+                            <input asp-for="UserName" class="form-control form-control-lg" placeholder="Tên đăng nhập" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="form-group">
+                            <input asp-for="Password" class="form-control form-control-lg" type="password" placeholder="Mật khẩu" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit button -->
+                        <div class="mt-3 d-grid gap-2">
+                            <button type="submit" class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn">Đăng nhập</button>
+                        </div>
+
+                        <!-- Keep me signed in -->
+                        <div class="my-2 d-flex justify-content-between align-items-center">
+                            <div class="form-check">
+                                <label class="form-check-label text-muted">
+                                    <input type="checkbox" class="form-check-input"> Giữ tôi đăng nhập
+                                </label>
+                            </div>
+                            <a asp-controller="Account" asp-action="QuenMatKhau" class="auth-link text-primary">Quên mật khẩu?</a>
+                        </div>
+
+                        <!-- Link to Register -->
+                        <div class="text-center mt-4 font-weight-light">
+                            Chưa có tài khoản? <a asp-controller="Account" asp-action="Register" class="text-primary">Tạo ngay</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .brand-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px; /* Adjust as needed */
+    }
+
+    .avatar-logo {
+        border-radius: 50%;
+        width: 100px; /* Adjust the size as needed */
+        height: 100px; /* Adjust the size as needed */
+        object-fit: cover; /* Ensure the image covers the entire area */
+        border: 2px solid #ddd; /* Add a border for a better appearance */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    }
+</style>

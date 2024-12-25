@@ -1,0 +1,149 @@
+﻿@model IEnumerable<ECommerceMVC.ViewModels.HangHoaVM>
+
+@foreach (var item in Model)
+{
+    <div class="col-md-6 col-lg-6 col-xl-4">
+        <div class="rounded position-relative fruite-item">
+            <div class="fruite-img">
+                <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">
+                    <img src="~/Hinh/HangHoa/@item.Hinh" class="img-fluid w-100 rounded-top" alt="@item.TenHh">
+                </a>
+            </div>
+            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">
+                    <h4 class="product-name" data-full-name="@item.TenHh">@item.TenHh</h4>
+                </a>
+                <p>@item.MoTaDonVi</p>
+                <div class="d-flex justify-content-between flex-lg-wrap">
+                    <p class="text-dark fs-5 fw-bold mb-0">$@item.DonGia</p>
+                    <button class="btn border border-secondary rounded-pill px-3 text-primary add-to-cart" data-id="@item.MaHh"><i class="fa fa-shopping-bag me-2 text-primary"></i> Đưa vào giỏ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<style>
+    .product-name {
+        display: -webkit-box;
+        -webkit-line-clamp: 1; /* Change this value to adjust the number of lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 100%; /* Ensure the text doesn't overflow the container */
+        position: relative;
+    }
+
+        .product-name:after {
+            content: '...';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background-color: #fff; /* Adjust background color to match your design */
+            padding-left: 10px;
+            animation: ellipsis 1.5s steps(4, end) infinite;
+        }
+
+    /* Smooth ellipsis animation */
+    ellipsis {
+        0%, 20%
+
+    {
+        content: '';
+    }
+
+    40% {
+        content: '.';
+    }
+
+    60% {
+        content: '..';
+    }
+
+    80%, 100% {
+        content: '...';
+    }
+
+    }
+
+    .product-name:hover::after {
+        content: attr(data-full-name);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: max-content;
+        background: rgba(0, 0, 0, 0.75);
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        white-space: normal;
+        z-index: 1;
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    .product-name:hover::after {
+        opacity: 1;
+    }
+
+</style>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    $(document).ready(function() {
+        $(".add-to-cart").click(function(e) {
+            e.preventDefault();
+            var id = $(this).data("id");
+            $.ajax({
+                url: '@Url.Action("AddToCart", "Cart")',
+                method: 'POST',
+                data: { id: id, quantity: 1 },
+                success: function(response) {
+                    if (response.success) {
+                        $("#cart-quantity").text(response.cartItemCount);
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Item added to cart',
+                            showConfirmButton: false,
+                            timer: 2000,
+                            position: 'bottom-end',
+                            toast: true,
+                            customClass: {
+                                popup: 'animate__animated animate__fadeInUp'
+                            }
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: response.message,
+                            showConfirmButton: false,
+                            timer: 2000,
+                            position: 'bottom-end',
+                            toast: true,
+                            customClass: {
+                                popup: 'animate__animated animate__fadeInUp'
+                            }
+                        });
+                    }
+                },
+                error: function() {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: "Something went wrong, please try again.",
+                        showConfirmButton: false,
+                        timer: 2000,
+                        position: 'bottom-end',
+                        toast: true,
+                        customClass: {
+                            popup: 'animate__animated animate__fadeInUp'
+                        }
+                    });
+                }
+            });
+        });
+    });
+</script>

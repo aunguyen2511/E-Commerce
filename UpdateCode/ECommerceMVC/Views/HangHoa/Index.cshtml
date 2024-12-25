@@ -1,0 +1,69 @@
+﻿@using X.PagedList.Mvc.Core
+@model ECommerceMVC.ViewModels.HangHoaPagedVM
+
+@{
+    ViewData["Title"] = "Shop";
+    Layout = "_DanhSachHangHoa";
+}
+
+<!-- Single Page Header start -->
+@section BreadCum {
+    <div class="container-fluid page-header py-5">
+        <h1 class="text-center text-white display-6">Shop</h1>
+        <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item">
+                <a asp-controller="Home" asp-action="Index">Home</a>
+            </li>
+            <li class="breadcrumb-item active text-white">Shop</li>
+        </ol>
+    </div>
+}
+<!-- Single Page Header End -->
+
+<!-- Product List Start -->
+@await Html.PartialAsync("ProductItem", Model.HangHoas)
+
+<!-- Pagination Start -->
+<div class="pagination-container">
+    @Html.PagedListPager(Model.HangHoas, page => Url.Action("Index", new { page, loai = Model.CurrentLoai }))
+</div>
+<!-- Pagination End -->
+
+<style>
+    .pagination-container .pagination {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .pagination-container .pagination li {
+            margin: 0 5px;
+        }
+
+            .pagination-container .pagination li a, .pagination-container .pagination li span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 1px solid #ccc;
+                text-decoration: none;
+                color: #333;
+                transition: background-color 0.3s, border-color 0.3s;
+            }
+
+                .pagination-container .pagination li a:hover, .pagination-container .pagination li span:hover {
+                    background-color: #007bff;
+                    border-color: #007bff;
+                    color: #fff;
+                }
+
+        .pagination-container .pagination .active span {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+        }
+</style>
+

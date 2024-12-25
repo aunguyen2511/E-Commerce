@@ -1,0 +1,362 @@
+﻿@using System.Security.Claims
+@model ECommerceMVC.ViewModels.HangHoaVM
+@{
+    Layout = "~/Views/Shared/AdminDashboard/_AdminDashboard.cshtml";
+    ViewData["Title"] = "Create Product";
+}
+
+<div class="container-scroller">
+    @* Top Menu *@
+    <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+            <a class="navbar-brand brand-logo" href="index.html"><img src="~/dashboard/assets/images/logo.svg" alt="logo" /></a>
+            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="~/dashboard/assets/images/logo-mini.svg" alt="logo" /></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                <span class="mdi mdi-menu"></span>
+            </button>
+            <div class="search-field d-none d-md-block">
+                <form class="d-flex align-items-center h-100" action="#">
+                    <div class="input-group">
+                        <div class="input-group-prepend bg-transparent">
+                            <i class="input-group-text border-0 mdi mdi-magnify"></i>
+                        </div>
+                        <input type="text" class="form-control bg-transparent border-0" placeholder="Search projects">
+                    </div>
+                </form>
+            </div>
+
+            @* Profile *@
+            <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item nav-profile dropdown">
+                    <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="nav-profile-img">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                // Lấy đường dẫn ảnh từ claim UserImage hoặc đường dẫn mặc định
+                                var userImage = User.FindFirst("UserImage")?.Value ?? Url.Content("~/Hinh/default-avatar.png");
+                                userImage = Url.Content("/" + userImage.TrimStart('/')); // Đảm bảo URL là tuyệt đối
+                                <img src="@userImage" alt="User Image" class="rounded-circle">
+                                <span class="availability-status online"></span>
+                            }
+                            else
+                            {
+                                <img src="/Hinh/default-avatar.png" alt="Default Image" class="rounded-circle">
+                                <span class="availability-status offline"></span>
+                            }
+
+
+                        </div>
+                        <div class="nav-profile-text">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                // Lấy tên người dùng từ claim Name
+                                var userName = User.FindFirst(ClaimTypes.Name)?.Value ?? "User";
+                                <p class="mb-1 text-black">@userName</p>
+                            }
+                            else
+                            {
+                                <p class="mb-1 text-black">Guest</p>
+                            }
+                        </div>
+                    </a>
+                    <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a class="dropdown-item" asp-area="Admin" asp-controller="Admin" asp-action="Profile">
+                                <i class="mdi mdi-cached me-2 text-success"></i> Activity Log
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" asp-area="Admin" asp-controller="Admin" asp-action="Logout">
+                                <i class="mdi mdi-logout me-2 text-primary"></i> Signout
+                            </a>
+                        }
+                        else
+                        {
+                            <a class="dropdown-item" asp-controller="Account" asp-action="Login">
+                                <i class="mdi mdi-login me-2 text-primary"></i> Login
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" asp-controller="Account" asp-action="Register">
+                                <i class="mdi mdi-account-plus me-2 text-success"></i> Register
+                            </a>
+                        }
+                    </div>
+                </li>
+
+
+                <li class="nav-item d-none d-lg-block full-screen-link">
+                    <a class="nav-link">
+                        <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+                    </a>
+                </li>
+
+                @* Notifications *@
+                <li class="nav-item dropdown">
+                    <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown " href="#" data-bs-toggle="dropdown">
+                        <i class="mdi mdi-bell-outline"></i>
+                        <span class="count-symbol bg-danger"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                        <h6 class="p-3 mb-0">Notifications</h6>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item preview-item">
+                            <div class="preview-thumbnail">
+                                <div class="preview-icon bg-warning">
+                                    <i class="mdi mdi-cog"></i>
+                                </div>
+                            </div>
+                            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <h6 class="preview-subject font-weight-normal mb-1">Settings</h6>
+                                <p class="text-gray ellipsis mb-0"> Update dashboard </p>
+                            </div>
+                        </a>
+
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item preview-item">
+                            <div class="preview-thumbnail">
+                                <div class="preview-icon bg-info">
+                                    <i class="mdi mdi-link-variant"></i>
+                                </div>
+                            </div>
+                            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <h6 class="preview-subject font-weight-normal mb-1">Launch Admin</h6>
+                                <p class="text-gray ellipsis mb-0"> New admin wow! </p>
+                            </div>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <h6 class="p-3 mb-0 text-center">See all notifications</h6>
+                    </div>
+                </li>
+
+                <li class="nav-item nav-logout d-none d-lg-block">
+                    <a class="nav-link" asp-controller="Account" asp-action="Logout">
+                        <i class="mdi mdi-power"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item nav-settings d-none d-lg-block">
+                    <a class="nav-link" href="#">
+                        <i class="mdi mdi-format-line-spacing"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                <span class="mdi mdi-menu"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        @* Menu Main *@
+        <nav class="sidebar sidebar-off canvas" id="sidebar">
+            <ul class="nav">
+                @* Dashboard *@
+                <li class="nav-item">
+                    <a asp-area="Admin" asp-controller="Admin" asp-action="Dashboard" class="nav-link">
+                        <span class="menu-title">Dashboard</span>
+                        <i class="mdi mdi-home menu-icon"></i>
+                    </a>
+                </li>
+
+                @* CRUD Product *@
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#crudMenu" aria-expanded="false" aria-controls="crudMenu">
+                        <span class="menu-title">CRUD Product</span>
+                        <i class="mdi mdi-database menu-icon"></i>
+                    </a>
+                    <div class="collapse" id="crudMenu">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Admin" asp-action="ManageProducts" class="nav-link">Manage Products</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Loai" asp-action="Index" class="nav-link">Category Products</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                @* Chart *@
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+                        <span class="menu-title">Charts</span>
+                        <i class="mdi mdi-chart-bar menu-icon"></i>
+                    </a>
+                    <div class="collapse" id="charts">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/dashboard/pages/charts/chartjs.html">Chart Js</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                @* User Profile *@
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                        <span class="menu-title">User  Pages</span>
+                        <i class="menu-arrow"></i>
+                        <i class="mdi mdi-lock menu-icon"></i>
+                    </a>
+                    <div class="collapse" id="auth">
+                        <ul class="nav flex-column sub-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/dashboard/pages/samples/blank-page.html"> Blank Page </a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Admin" asp-action="Login" class="nav-link"> Login </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        @* Create *@
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h2 class="h4 mb-0">Create Product</h2>
+                        </div>
+                        <div class="card-body">
+                            <form asp-action="Create" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="TenHh" class="form-label"></label>
+                                            <input asp-for="TenHh" class="form-control" placeholder="Enter product name" required />
+                                            <div class="invalid-feedback">
+                                                Please provide a valid product name.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="TenAlias" class="form-label"></label>
+                                            <input asp-for="TenAlias" class="form-control" placeholder="Enter product alias" required />
+                                            <div class="invalid-feedback">
+                                                Please provide a valid product alias.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="MaLoai" class="form-label"></label>
+                                            <select asp-for="MaLoai" class="form-control" asp-items="ViewBag.Categories" required></select>
+                                            <div class="invalid-feedback">
+                                                Please select a category.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="MoTaDonVi" class="form-label"></label>
+                                            <input asp-for="MoTaDonVi" class="form-control" placeholder="Enter unit description" required />
+                                            <div class="invalid-feedback">
+                                                Please provide a unit description.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="DonGia" class="form-label"></label>
+                                            <input asp-for="DonGia" class="form-control" placeholder="Enter price" required />
+                                            <div class="invalid-feedback">
+                                                Please provide a valid price.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="Hinh" class="form-label"></label>
+                                            <input asp-for="Hinh" class="form-control-file" type="file" required />
+                                            <div class="invalid-feedback">
+                                                Please upload an image.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="NgaySx" class="form-label"></label>
+                                            <input asp-for="NgaySx" class="form-control" type="date" required />
+                                            <div class="invalid-feedback">
+                                                Please select a manufacturing date.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="GiamGia" class="form-label"></label>
+                                            <input asp-for="GiamGia" class="form-control" placeholder="Enter discount" required />
+                                            <div class="invalid-feedback">
+                                                Please provide a valid discount.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="MoTa" class="form-label"></label>
+                                    <textarea asp-for="MoTa" class="form-control" rows="5" placeholder="Enter product description" required></textarea>
+                                    <div class="invalid-feedback">
+                                        Please provide a description.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="MaNcc" class="form-label"></label>
+                                    <select asp-for="MaNcc" class="form-control" asp-items="ViewBag.Suppliers" required></select>
+                                    <div class="invalid-feedback">
+                                        Please select a supplier.
+                                    </div>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary">Create</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+}

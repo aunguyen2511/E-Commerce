@@ -1,0 +1,1463 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Finish\\AgileCommercee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\controllers\\statisticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\controllers\\statisticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\controllers\\nhacungcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\controllers\\nhacungcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\controllers\\loaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\controllers\\loaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\shared\\_baboonstoreafterlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\shared\\_baboonstoreafterlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\shared\\_baboonstorecuslogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\shared\\_baboonstorecuslogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\shared\\_baboonstore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\shared\\_baboonstore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\cart\\getcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\cart\\getcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\cart\\purchasedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\cart\\purchasedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\cart\\paymentfail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\cart\\successpaypal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\cart\\successpaypal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\cart\\successvnpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\cart\\successvnpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\cart\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\cart\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\indexcus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\indexcus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\productitemad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\productitemad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\mytool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\mytool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\shared\\_timkiempanelad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\shared\\_timkiempanelad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\shared\\_timkiempanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\shared\\_timkiempanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\nhacungcaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\nhacungcaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\nhacungcaps\\detailscus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\nhacungcaps\\detailscus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\nhacungcaps\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\nhacungcaps\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\nhacungcaps\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\nhacungcaps\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\detailscus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\detailscus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\helper\\slughelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\helper\\slughelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\qltk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\qltk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\searchad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\searchad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\helper\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\helper\\mysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\service\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\service\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\service\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\service\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\purchasedetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\purchasedetailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\entities\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\entities\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\entities\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\entities\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\entities\\vchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\entities\\vchitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\helper\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\helper\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\paypalclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\paypalclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\entities\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\entities\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\hanghoavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\shared\\_danhsachhanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\hanghoas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\hanghoas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\helper\\twillioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\helper\\twillioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\mailchimpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\mailchimpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\loais\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\loais\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\registerad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\registerad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\forgetpass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\forgetpass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\customerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\customerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\accounts\\afterlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\accounts\\afterlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\supplierstatisticsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\supplierstatisticsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\supplierstatisticsstrategy1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\supplierstatisticsstrategy1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\models\\istatisticsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\models\\istatisticsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\statistis\\statisticbysuppliercategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\statistis\\statisticbysuppliercategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\statistis\\statisticbysupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\statistis\\statisticbysupplier.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|e:\\finish\\agilecommercee\\agilecommercee\\views\\statistis\\statisticbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C942091-88C3-4D3C-B318-C6658CBECD32}|AgileCommercee\\AgileCommercee.csproj|solutionrelative:agilecommercee\\views\\statistis\\statisticbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AgileCommercee\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T06:19:23.529Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Controllers\\HangHoaController.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "AgileCommercee\\Controllers\\HangHoaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:59:02.216Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IndexCus.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\IndexCus.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\IndexCus.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\IndexCus.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\IndexCus.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T07:10:49.133Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\Index.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Index.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T07:10:48.26Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MyTool.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\MyTool.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\MyTool.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\MyTool.cs",
+              "RelativeToolTip": "AgileCommercee\\MyTool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:32:48.771Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductItem.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\ProductItem.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\ProductItem.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\ProductItem.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\ProductItem.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T07:06:20.487Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductItemAD.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\ProductItemAD.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\ProductItemAD.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\ProductItemAD.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\ProductItemAD.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAC2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T07:16:46.954Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_BaboonStoreCusLogin.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_BaboonStoreCusLogin.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Shared\\_BaboonStoreCusLogin.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_BaboonStoreCusLogin.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Shared\\_BaboonStoreCusLogin.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAAJsAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T11:45:35.073Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T10:38:49.378Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentFail.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Cart\\PaymentFail.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\PaymentFail.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Cart\\PaymentFail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T17:45:26.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SuccessPayPal.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\SuccessPayPal.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Cart\\SuccessPayPal.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\SuccessPayPal.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Cart\\SuccessPayPal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T10:37:32.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SuccessVnPay.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\SuccessVnPay.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Cart\\SuccessVnPay.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\SuccessVnPay.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Cart\\SuccessVnPay.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T16:15:45.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StatistiController.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\StatistiController.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Controllers\\StatistiController.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\StatistiController.cs",
+              "RelativeToolTip": "AgileCommercee\\Controllers\\StatistiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:30:00.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhaCungCapController.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\NhaCungCapController.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Controllers\\NhaCungCapController.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\NhaCungCapController.cs",
+              "RelativeToolTip": "AgileCommercee\\Controllers\\NhaCungCapController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T09:47:06.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\CartController.cs",
+              "RelativeToolTip": "AgileCommercee\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:49:24.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AgileCommercee\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:48:53.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PurchaseDetail.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\PurchaseDetail.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Cart\\PurchaseDetail.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\PurchaseDetail.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Cart\\PurchaseDetail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T12:22:32.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\appsettings.json",
+              "RelativeDocumentMoniker": "AgileCommercee\\appsettings.json",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\appsettings.json",
+              "RelativeToolTip": "AgileCommercee\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T09:20:36.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoaiController.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\LoaiController.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Controllers\\LoaiController.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\LoaiController.cs",
+              "RelativeToolTip": "AgileCommercee\\Controllers\\LoaiController.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAAAN4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:46:52.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T10:17:37.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SubscribeController.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\SubscribeController.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Controllers\\SubscribeController.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\SubscribeController.cs",
+              "RelativeToolTip": "AgileCommercee\\Controllers\\SubscribeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T00:31:04.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetCart.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\GetCart.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Cart\\GetCart.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\GetCart.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Cart\\GetCart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T04:48:30.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACwAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T05:43:03.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_BaboonStoreAfterLogin.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_BaboonStoreAfterLogin.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Shared\\_BaboonStoreAfterLogin.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_BaboonStoreAfterLogin.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Shared\\_BaboonStoreAfterLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T01:24:25.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AgileCommercee\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAhwD4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T03:09:10.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_BaboonStore.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_BaboonStore.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Shared\\_BaboonStore.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_BaboonStore.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Shared\\_BaboonStore.cshtml",
+              "ViewState": "AgIAAPkBAAAAAAAAAAAkwAUCAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T07:04:16.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\Success.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Cart\\Success.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\Success.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Cart\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T10:17:13.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PurchaseHistory.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\PurchaseHistory.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Cart\\PurchaseHistory.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Cart\\PurchaseHistory.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Cart\\PurchaseHistory.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T11:07:49.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_TimKiemPanel.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Shared\\_TimKiemPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T07:53:58.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_TimKiemPanelAD.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_TimKiemPanelAD.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Shared\\_TimKiemPanelAD.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_TimKiemPanelAD.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Shared\\_TimKiemPanelAD.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T07:12:55.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\NhaCungCaps\\Details.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\NhaCungCaps\\Details.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\NhaCungCaps\\Details.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\NhaCungCaps\\Details.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAACoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T09:42:26.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\NhaCungCaps\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\NhaCungCaps\\Edit.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\NhaCungCaps\\Edit.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\NhaCungCaps\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T09:50:27.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DetailsCus.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\NhaCungCaps\\DetailsCus.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\NhaCungCaps\\DetailsCus.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\NhaCungCaps\\DetailsCus.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\NhaCungCaps\\DetailsCus.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T09:52:33.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\NhaCungCaps\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\NhaCungCaps\\Index.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\NhaCungCaps\\Index.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\NhaCungCaps\\Index.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAFAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T09:55:04.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "QLTK.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\QLTK.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\QLTK.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\QLTK.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\QLTK.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwE0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:19:19.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SlugHelper.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Helper\\SlugHelper.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\Helper\\SlugHelper.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Helper\\SlugHelper.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\Helper\\SlugHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:37:10.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Profile.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\Profile.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Profile.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\Profile.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAOgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:18:59.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Details.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\Details.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Details.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\Details.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T00:49:51.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Program.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Program.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Program.cs",
+              "RelativeToolTip": "AgileCommercee\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T10:16:23.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DetailsCus.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\DetailsCus.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\DetailsCus.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\DetailsCus.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\DetailsCus.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T00:49:53.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\Edit.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Edit.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\Edit.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T09:26:35.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SearchAD.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\SearchAD.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\SearchAD.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\SearchAD.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\SearchAD.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T07:15:25.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T07:11:53.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Search.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\Search.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Search.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T12:30:44.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MySetting.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Helper\\MySetting.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\Helper\\MySetting.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Helper\\MySetting.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\Helper\\MySetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T05:31:32.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\ChangePassword.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\ChangePassword.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\ChangePassword.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:14:28.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IVnPayService.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Service\\IVnPayService.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\Service\\IVnPayService.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Service\\IVnPayService.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\Service\\IVnPayService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:18:29.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Service\\VnPayService.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\Service\\VnPayService.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Service\\VnPayService.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\Service\\VnPayService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:18:47.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "VnPaymentResponseModel.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\VnPaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\VnPaymentResponseModel.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\VnPaymentResponseModel.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\VnPaymentResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T06:49:27.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\SessionExtensions.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\SessionExtensions.cs",
+              "RelativeToolTip": "AgileCommercee\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T10:23:40.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PurchaseDetailVM.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\PurchaseDetailVM.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\PurchaseDetailVM.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\PurchaseDetailVM.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\PurchaseDetailVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T12:15:38.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\HoaDon.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Entities\\HoaDon.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\HoaDon.cs",
+              "RelativeToolTip": "AgileCommercee\\Entities\\HoaDon.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T20:14:56.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ChiTietHd.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\ChiTietHd.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Entities\\ChiTietHd.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\ChiTietHd.cs",
+              "RelativeToolTip": "AgileCommercee\\Entities\\ChiTietHd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T20:11:02.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "VChiTietHoaDon.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\VChiTietHoaDon.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Entities\\VChiTietHoaDon.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\VChiTietHoaDon.cs",
+              "RelativeToolTip": "AgileCommercee\\Entities\\VChiTietHoaDon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:47:05.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Helper\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\Helper\\VnPayLibrary.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Helper\\VnPayLibrary.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\Helper\\VnPayLibrary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T22:17:56.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PaypalClient.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\PaypalClient.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\PaypalClient.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\PaypalClient.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\PaypalClient.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAIwN4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T04:17:12.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\KhachHang.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Entities\\KhachHang.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\KhachHang.cs",
+              "RelativeToolTip": "AgileCommercee\\Entities\\KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:43:19.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\CartModel.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\CartModel.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\CartModel.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\CartModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T20:14:35.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Entities\\Cart.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Entities\\Cart.cs",
+              "RelativeToolTip": "AgileCommercee\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T01:44:10.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\CartItem.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\CartItem.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T20:11:16.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwD8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T07:20:29.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "HangHoaVM.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\HangHoaVM.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\HangHoaVM.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\HangHoaVM.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\HangHoaVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:35:51.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "_DanhSachHangHoa.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Shared\\_DanhSachHangHoa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T20:02:05.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CheckoutVM.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\CheckoutVM.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\CheckoutVM.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\CheckoutVM.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\CheckoutVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T04:37:19.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\HangHoas\\Delete.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\HangHoas\\Delete.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\HangHoas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T11:09:03.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "TwillioService.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Helper\\TwillioService.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\Helper\\TwillioService.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Helper\\TwillioService.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\Helper\\TwillioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T01:04:45.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "MailChimpSettings.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\MailChimpSettings.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\MailChimpSettings.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\MailChimpSettings.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\MailChimpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T00:44:57.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Main.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Main.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\Main.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Main.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\Main.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:18:57.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Register.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\Register.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Register.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\Register.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAOBvwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:20:24.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\RegisterViewModel.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:27:33.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "RegisterAD.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\RegisterAD.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\RegisterAD.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\RegisterAD.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\RegisterAD.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAOBvwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:20:27.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\ResetPassword.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\ResetPassword.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:20:36.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Products\\Index.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T10:26:04.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Loais\\Create.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Loais\\Create.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Loais\\Create.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Loais\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:21:42.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\Index.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Index.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswEoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:17:17.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ForgetPass.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\ForgetPass.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\ForgetPass.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\ForgetPass.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\ForgetPass.cshtml",
+              "ViewState": "AgIAAIAAAAAAAAAAAOBvwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:17:12.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\Edit.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Edit.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\Edit.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAOBvwEEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:15:47.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\Delete.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Delete.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\Delete.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:14:30.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CustomerLogin.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\CustomerLogin.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\CustomerLogin.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\CustomerLogin.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\CustomerLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:14:29.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Details.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\Details.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Details.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:12:17.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\Login.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:12:08.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "AfterLogin.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\AfterLogin.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Accounts\\AfterLogin.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Accounts\\AfterLogin.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Accounts\\AfterLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T07:14:27.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Account.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\Account.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\Account.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:41:13.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "SupplierStatisticsStrategy.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\SupplierStatisticsStrategy.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\SupplierStatisticsStrategy.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\SupplierStatisticsStrategy.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\SupplierStatisticsStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T06:20:11.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "SupplierStatisticsStrategy1.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\SupplierStatisticsStrategy1.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\SupplierStatisticsStrategy1.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\SupplierStatisticsStrategy1.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\SupplierStatisticsStrategy1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T06:19:37.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "IStatisticsStrategy.cs",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\IStatisticsStrategy.cs",
+              "RelativeDocumentMoniker": "AgileCommercee\\Models\\IStatisticsStrategy.cs",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Models\\IStatisticsStrategy.cs",
+              "RelativeToolTip": "AgileCommercee\\Models\\IStatisticsStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T06:15:59.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "StatisticByCategory.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Statistis\\StatisticByCategory.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Statistis\\StatisticByCategory.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Statistis\\StatisticByCategory.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Statistis\\StatisticByCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:52:37.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "StatisticBySupplier.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Statistis\\StatisticBySupplier.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Statistis\\StatisticBySupplier.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Statistis\\StatisticBySupplier.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Statistis\\StatisticBySupplier.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:59:09.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "StatisticBySupplierCategory.cshtml",
+              "DocumentMoniker": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Statistis\\StatisticBySupplierCategory.cshtml",
+              "RelativeDocumentMoniker": "AgileCommercee\\Views\\Statistis\\StatisticBySupplierCategory.cshtml",
+              "ToolTip": "E:\\Finish\\AgileCommercee\\AgileCommercee\\Views\\Statistis\\StatisticBySupplierCategory.cshtml",
+              "RelativeToolTip": "AgileCommercee\\Views\\Statistis\\StatisticBySupplierCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:59:14.159Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

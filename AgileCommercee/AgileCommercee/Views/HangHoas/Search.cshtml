@@ -1,0 +1,10 @@
+﻿@model IEnumerable<AgileCommercee.Entities.HangHoa>
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Search</h1>
+
+@await Html.PartialAsync("ProductItem", Model)
+

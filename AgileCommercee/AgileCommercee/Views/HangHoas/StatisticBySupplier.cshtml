@@ -1,0 +1,28 @@
+﻿@model List<AgileCommercee.Models.SupplierStatistic>
+@{
+    ViewData["Title"] = "StatisticBySupplier";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 align="center">Product statistic by Supplier</h1>
+
+<table class="table table-hover table-bordered justify-content-center">
+    <thead align="center">
+        <tr>
+            <th>Supplier</th>
+            <th>Number of Products</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaNccNavigation</td>
+                <td>@item.NumOfProduct</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a button type="submit" class="btn btn-secondary" asp-action="Index">Back to Product List</a>
+</div>

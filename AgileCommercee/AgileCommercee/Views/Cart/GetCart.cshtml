@@ -1,0 +1,78 @@
+﻿@model IEnumerable<CartItem>
+
+@{
+    ViewData["Title"] = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Giỏ hàng</h1>
+
+<div class="cart-table table-responsive">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th class="pro-thumbnail">Thumbnail</th>
+                <th class="pro-title">Tên sản phẩm</th>
+                <th class="pro-price">Đơn giá</th>
+                <th class="pro-quantity">Số lượng</th>
+                <th class="pro-subtotal">Thành tiền</th>
+                <th class="pro-remove">Xoá</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <a asp-controller="HangHoas" asp-action="Details" asp-route-id="@item.MaHh">
+                            <img src="~/Hinh/HangHoa/@item.Hinh" alt="@item.TenHh" height="100px;" />
+                        </a>
+                    </td>
+                    <td>@item.TenHh</td>
+                    <td>@item.DonGia.ToString("#,##0.00")</td>
+                    <td>
+                        <input value="@item.SoLuong" min="1" type="number" class="so-luong-mua" onchange="updateQuantity(@item.MaHh, this.value)" />
+                    </td>
+                    <td>@item.ThanhTien.ToString("#,##0.00")</td>
+                    <td>
+                        <a class="btn btn-danger" asp-action="RemoveCartItem" asp-route-id="@item.MaHh">
+                            Xoá
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+
+<div>
+    <a class="btn btn-danger" asp-action="ClearCart">Xoá giỏ hàng</a>
+    <a class="btn btn-success" asp-action="PaypalDemo" asp-controller="Payment">Thanh toán</a>
+</div>
+
+<!-- cái này là JavaScript để cập nhật số lượng khi bấm button tăng số lượng sản phẩm lúc đang trong giỏ hàng -->
+<script>
+    function updateQuantity(maHh, soLuong) {
+        if (soLuong < 1) {
+            alert("Số lượng phải lớn hơn 0.");
+            return;
+        }
+
+        fetch('/Cart/UpdateQuantity', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: new URLSearchParams({ maHh: maHh, soLuong: soLuong })
+        })
+            .then(response => {
+                if (response.ok) {
+                    location.reload(); // Tải lại trang để cập nhật giỏ hàng
+                } else {
+                    alert('Cập nhật số lượng không thành công.');
+                }
+            });
+    }
+</script>

@@ -1,0 +1,32 @@
+﻿@model List<AgileCommercee.Models.PurchaseDetailVM>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi tiết hóa đơn @ViewBag.MaHD</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 col-lg-3 col-xl-3 mb-4">
+                <div class="rounded position-relative fruite-item">
+                    <div class="fruite-img">
+                        <img src="~/Hinh/HangHoa/@item.Hinh" alt="@item.TenSP" class="hh-box-img img-fluid" />
+                    </div>
+                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h4>@item.TenSP</h4>
+                        <p>Đơn giá: <b>@item.DonGia.ToString("N0")</b> VND</p>
+                        <p>Giảm giá: <b>@item.GiamGia.ToString("N0")</b>%</p>
+                        <p>Số lượng: <b>@item.SoLuong</b></p>
+                        <p>Thành tiền: <b>@item.ThanhTien.ToString("N0")</b> VND</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<a asp-action="PurchaseHistory" asp-controller="Cart">
+    <button class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i>Back to Product</button>
+</a>

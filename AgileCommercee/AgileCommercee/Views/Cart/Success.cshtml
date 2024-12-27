@@ -1,0 +1,35 @@
+﻿@using AgileCommercee.Entities
+@{
+    ViewData["Title"] = "Thanh Toán Thành Công";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var hoaDon = ViewBag.HoaDon as HoaDon;
+    var cartItems = ViewBag.ChiTietHd as List<ChiTietHd>;
+    var totalAmount = cartItems?.Sum(item => item.SoLuong * item.DonGia) ?? 0;
+}
+
+<div class="container-fluid contact py-5">
+    <div class="container">
+        <div class="p-5 bg-light rounded">
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="text-center mx-auto" style="max-width: 700px;">
+                        <h1 class="text-primary">Payment Succes</h1>
+                        <h3 class="text-success">Invoice ID: @hoaDon?.MaHd</h3>
+                        <h4 class="text-danger">Your package will be delivery soon </h4>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="text-center mx-auto" style="max-width: 700px;">
+                        <h4>Phương thức thanh toán: @hoaDon?.CachThanhToan</h4>
+                        <h4>Địa chỉ giao hàng: @hoaDon?.DiaChi</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a asp-action="IndexCus" asp-controller="HangHoas"><button class="btn btn-primary">Back to Product</button></a>
+<a asp-action="PurchaseHistory" asp-controller="Cart">
+    <button class="btn btn-primary">Purchase History</button>
+</a>

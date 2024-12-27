@@ -1,0 +1,43 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Lịch sử mua hàng</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mã HĐ</th>
+            <th>Ngày đặt</th>
+            <th>Cách thanh toán</th>
+            <th>Cách vận chuyển</th>
+            <th>Ghi chú</th>
+            <th>Trạng thái</th>
+            <th>Tổng tiền</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var hd in Model)
+        {
+            <tr>
+                <td>@hd.MaHd</td>
+                <td>@hd.NgayDat.ToString("dd/MM/yyyy")</td>
+                <td>@hd.CachThanhToan</td>
+                <td>@hd.CachVanChuyen</td>
+                <td>@hd.GhiChu</td>
+                <td>@hd.MaTrangThai</td>
+                <td>@hd.TongTien.ToString("C")</td>
+                <td>
+                    <a asp-action="PurchaseDetail" asp-controller="Cart" asp-route-maHd="@hd.MaHd" class="btn btn-info">
+                        Xem chi tiết
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="IndexCus" asp-controller="HangHoas">
+    <button class="btn btn-primary">Back to Product</button>
+</a>

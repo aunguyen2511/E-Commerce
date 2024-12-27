@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Thanh Toán Thành Công";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid contact py-5">
+    <div class="container">
+        <div class="p-5 bg-light rounded">
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="text-center mx-auto" style="max-width: 700px;">
+                        <h1 class="text-primary">Payment Success</h1>
+                        <h4 class="text-danger">Your package will be delivered soon!</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a asp-action="IndexCus" asp-controller="HangHoas">
+    <button class="btn btn-primary">Back to Product List</button>
+</a>
+<a asp-action="PurchaseHistory" asp-controller="Cart">
+    <button class="btn btn-primary">Purchase History</button>
+</a>

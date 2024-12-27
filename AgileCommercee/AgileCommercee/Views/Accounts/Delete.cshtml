@@ -1,0 +1,78 @@
+﻿@model AgileCommercee.Entities.KhachHang
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<head>
+    <title>BaboonStore - @ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="~/MiniStore-1.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/MiniStore-1.0.0/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<h1 align="center">DELETE ACCOUNT: @Html.DisplayFor(Model => Model.MaKh)</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <dl class="row justify-content-center">
+        <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.MaKh)
+        </dt>
+        <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.MaKh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HoTen)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HoTen)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DiaChi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DiaChi)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DienThoai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DienThoai)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Hinh)
+        </dt>
+        <dd class = "col-sm-10">
+                <img width="200px" height="200px" src="~/images/Hinh/@Model.Hinh" alt="@Model.MaKh" />
+        </dd>
+        </dl>
+    </div>
+
+    <form asp-action="Delete" class="form-group d-flex justify-content-between">
+        <input type="hidden" asp-for="MaKh" />
+        <a class="btn btn-primary" asp-action="Index">Back to List</a>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+    </form>
+</div>

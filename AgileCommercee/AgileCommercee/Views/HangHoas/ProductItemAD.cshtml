@@ -1,0 +1,30 @@
+﻿@using AgileCommercee.Models.Helper
+@model IEnumerable<AgileCommercee.Entities.HangHoa>
+
+<h3> Có <b>@Model.Count()</b> Product.</h3>
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 col-lg-3 col-xl-3 mb-4">
+                <div class="rounded position-relative fruite-item">
+                    <div class="fruite-img">
+                        <a href="@Url.Action("MoreDetailsAD", "HangHoas", new { slug = item.TenHh.ToSlug() })">
+                            <img src="~/Hinh/HangHoa/@item.Hinh" alt="@item.TenHh" class="hh-box-img img-fluid" />
+                        </a>
+                    </div>
+                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.MaLoai</div>
+                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <a href="@Url.Action("MoreDetailsAD", "HangHoas", new { slug = item.TenHh.ToSlug() })"><h4>@item.TenHh</h4></a>
+                        <p>@item.MoTa</p>
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                            <p class="text-dark fs-5 fw-bold mb-0">$@item.DonGia</p>
+                            <a asp-action="Edit" asp-controller="HangHoas" asp-route-id="@item.MaHh" class="btn border border-secondary rounded-pill px-3 text-md-center"><i class="fa fa-shopping-bag me-2 text-primary"></i>Edit</a>
+                            <a asp-action="Delete" asp-controller="HangHoas" asp-route-id="@item.MaHh" class="btn border border-secondary rounded-pill px-3  btn-danger text-md-center"><i class="fa fa-shopping-bag me-2 text-primary"></i> Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
